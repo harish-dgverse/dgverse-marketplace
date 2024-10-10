@@ -1,0 +1,15 @@
+.redirect-container {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+  }
+
+  .redirect-now-link {
+    margin-top: 10px;
+  }
+}

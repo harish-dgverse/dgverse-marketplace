@@ -1,0 +1,141 @@
+@import "../../mixins/common.scss";
+
+.free-transfer-outer-container {
+    .free-transfer-container {
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+        min-height: 100px;
+
+        .free-transfer-fields-container {
+            .transfer-field {
+                width: 400px;
+            }
+
+            .MuiGrid2-root.MuiGrid2-container {
+                .MuiFormControl-root.MuiTextField-root {
+                    min-width: 50%;
+                }
+            }
+
+            .content-outer {
+                box-shadow: 5px 5px 12px 1px #c4c4c4;
+                padding: 16px;
+
+                .contentsec {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    padding: 0;
+
+                    p.text-part {
+                        margin: 0;
+                        font-size: 15px;
+                        font-family: 'space_grotesklight';
+                        font-weight: 600;
+                        padding: 10px 0 0 0;
+                        display: flex;
+                        width: 100%;
+                        &.light{
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+
+        select {
+            min-width: 200px;
+        }
+
+        .page-header {
+            font-family: "bebas_neueregular";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            text-transform: uppercase;
+        }
+
+        .free-transfer-fields-container {
+            margin-top: 5%;
+
+            .description-collection {
+                margin-top: 5px;
+            }
+        }
+    }
+
+    .transfer-action-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 0;
+
+        button {
+            border-radius: 12px;
+            align-items: center;
+            padding: 10px 20px;
+            gap: 10px;
+            margin: 5px;
+            font-family: "space_grotesklight";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            width: 150px;
+        }
+
+        button:hover {
+            background: grey;
+        }
+
+        .create-button {
+            @include createbtn;
+        }
+
+        .discard-button {
+            @include cancelbtn;
+        }
+        
+    }
+    .next-btn{
+        color: #000;
+        &:disabled{
+            color: #c4c4c4;
+        }
+    }
+    .stepper-mobile {
+        width: 100%;
+        max-width: 100%;
+        button{
+            color: #000;
+        }
+        button:disabled{
+            color: #ccc;
+        }
+        .create-button{
+            color: #fff;
+        }
+      }
+}
+
+@media only screen and (max-width: 600px) {
+    .free-transfer-outer-container {
+        .free-transfer-container {
+            .free-transfer-fields-container {
+                .MuiGrid2-root.MuiGrid2-container {
+                    .MuiFormControl-root.MuiTextField-root {
+                        min-width: 100%;
+                        margin: 10px 0 0 0;
+                    }
+                }
+
+                .transfer-field {
+                    width: auto;
+                }
+            }
+        }
+    }
+}

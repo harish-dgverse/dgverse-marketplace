@@ -1,0 +1,152 @@
+{
+	"name": "CUSAT B Tech SBT",
+	"token_id": "0.0.11111",
+	"total_supply": 1,
+	"symbol": null,
+	"timestamp": "2023-09-17T08:48:59.058Z",
+	"token_type": "sbt",
+	"token_category": "Photography",
+	"ft_sales_price": null,
+	"status": null,
+	"supply_key": true,
+	"freeze_key": true,
+	"pause_key": true,
+	"kyc_key": true,
+	"wipe_key": true,
+	"user": {
+		"user_name": "BCCI",
+		"subscriptionType": "gold",
+		"verified": 2,
+		"user_id": 7,
+		"timestamp": "2023-09-17T06:14:52.732Z",
+		"Wallet": [
+			{
+				"wallet_id": 1,
+				"wallet_address": "0.0.15397434"
+			}
+		],
+		"image": {
+			"display_pic": "7.jpeg",
+			"cover_pic": "7.jpeg",
+			"icon": "7.jpeg"
+		},
+		"SocialMedia": [
+			{
+				"media": "insta",
+				"url": "https://www.instagram.com/bcci.update/?hl=en"
+			},
+			{
+				"media": "twitter",
+				"url": "https://twitter.com/BCCI"
+			},
+			{
+				"media": "fb",
+				"url": "https://www.facebook.com/IndianCricketTeam"
+			},
+			{
+				"media": "discord",
+				"url": "https://discord.com/BCCI"
+			},
+			{
+				"media": "yt",
+				"url": "https://www.youtube.com/@bcciofficial"
+			}
+		]
+	},
+	"image": {
+		"cover_pic": "0.0.11111.jpeg",
+		"display_pic": "0.0.11111.jpeg",
+		"icon": "0.0.11111.jpeg"
+	},
+	"SocialToken": [],
+	"social_media": [
+		{
+			"media": "insta",
+			"url": "https://www.instagram.com/bcci.update/?hl=en"
+		},
+		{
+			"media": "twitter",
+			"url": "https://twitter.com/BCCI"
+		},
+		{
+			"media": "fb",
+			"url": "https://www.facebook.com/IndianCricketTeam"
+		},
+		{
+			"media": "discord",
+			"url": "https://discord.com/BCCI"
+		},
+		{
+			"media": "yt",
+			"url": "https://www.youtube.com/@bcciofficial"
+		}
+	],
+	"additional_info": [
+		{
+			"attribute": "Format",
+			"value": "50 over"
+		},
+		{
+			"attribute": "Number of teams",
+			"value": "14"
+		},
+		{
+			"attribute": "Winner",
+			"value": "India"
+		},
+		{
+			"attribute": "Runners Up",
+			"value": "Sri Lanka"
+		},
+		{
+			"attribute": "Semi finalists",
+			"value": "Pakistan, New zealand"
+		}
+	],
+	"_count": {
+		"UserShare": 0,
+		"UserView": 19,
+		"UserLike": 0
+	},
+	"inMarketCount": 0,
+	"nftDetails": [
+		{
+			"nft_name": "SBT #1",
+			"nft_id": "0.0.11111.1",
+			"timestamp": "2023-09-17T18:18:18.905Z",
+			"status": null,
+			"image": {
+				"cover_pic": null,
+				"display_pic": "0.0.11111.1.jpeg",
+				"icon": "0.0.11111.1.jpeg"
+			},
+			"user": {
+				"user_name": "BCCI",
+				"subscriptionType": "gold",
+				"verified": 2,
+				"user_id": 7,
+				"Wallet": [
+					{
+						"wallet_id": 1
+					}
+				],
+				"image": {
+					"image_id": 1,
+					"display_pic": "7.jpeg",
+					"cover_pic": "7.jpeg",
+					"icon": "7.jpeg"
+				}
+			},
+			"social_media": []
+		}
+	],
+	"count": {
+		"UserShare": 0,
+		"UserView": 19,
+		"UserLike": 0
+	},
+	"ranking": null,
+	"actionsAvailable": [
+		"Delete collection"
+	]
+}

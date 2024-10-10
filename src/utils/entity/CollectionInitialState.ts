@@ -1,0 +1,45 @@
+import { AdditionalDetails } from './AdditionalDetails';
+
+export interface CollectionInitialStateType {
+  name: string;
+  images: any;
+  defaultFreezeStatus: boolean;
+  royaltyStatus: boolean;
+  royaltyPercent?: string;
+  socialMedia: AdditionalDetails[];
+  description: any;
+  tags: any;
+  additionalDetails: AdditionalDetails[];
+  userId?: number;
+  tokenId?: string;
+  maxSupply?: string;
+  initialSupply?: string;
+  kycKey: boolean;
+  freezeKey: boolean;
+  wipeKey: boolean;
+  customFeeKey: boolean;
+  pauseKey: boolean;
+  immutable: boolean;
+  tokenType: string;
+  tokenCategory?: string;
+  audienceTarget?: string;
+  ftAudience?: string;
+  contactName?: string;
+  contactEmail?: string;
+  useCaseDesc?: string;
+  ftEarnMethod?: string;
+  ftSpendMethod?: string;
+  ftMarket?: string;
+  lineOfBusiness?: string;
+  symbol?: string;
+  saleVolume?: string;
+  salePrice?: string;
+  saleExpiresAt?: any;
+  sendToMarketplace?: boolean;
+  walletAddress: string;
+  treasuryAccount?: string;
+  walletType: string;
+  topic?: any;
+  decimal?: number;
+  // fieldName?: keyof ;
+}

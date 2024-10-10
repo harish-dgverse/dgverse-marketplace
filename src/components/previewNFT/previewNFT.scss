@@ -1,0 +1,124 @@
+@import '../../mixins/common.scss';
+
+.preview-nft-container {
+  .info-nft {
+    margin-top: 10%;
+  }
+}
+
+.action-btns {
+  width: 50%;
+  margin: auto;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+
+  .button-wrapper {
+    margin: auto;
+
+    button {
+      width: auto;
+    height: 40px;
+    background-color: black;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+    color: #f2f2f2;
+    margin: 5px;
+    border: none;
+    min-width: 100px;
+    cursor: pointer;
+    }
+  }
+  button.btn.btn-outline.discard-button {
+    @include cancelbtn;
+}
+}
+
+.image-uploaded-container {
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: row;
+
+  .action-after-imageupload {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.image-upload-button-container {
+  .image-upload-button {
+    width: 50%;
+    height: 150px;
+    border: 1px dashed #000000;
+    // margin: 2% 0 2% 0;
+    border-radius: 0px;
+  }
+}
+
+.nft-artifact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .header {
+    font-family: "bebas_neueregular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .nft-artifact-inner-wrapper {
+    img {
+      max-width: 600px;
+    }
+  }
+  
+}
+
+.uploaded-nft {
+  max-height: 150px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  button {
+      border-radius: 12px;
+      align-items: center;
+      padding: 10px 20px;
+      gap: 10px;
+      margin: 5px;
+      font-family: "space_grotesklight";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 26px;
+      width: 150px;
+  }
+
+  button:hover {
+      background: grey;
+  }
+
+  .done-button {
+      background: #000000;
+      color: #fff;
+  }
+
+  .cancel-button {
+      background: #fff;
+      color: #000;
+  }
+}
+@media only screen and (max-width:600px){
+  .image-upload-button-container{
+    .image-upload-button{
+      width: 100%;
+   }
+  }
+}

@@ -1,0 +1,50 @@
+.collection-feature-section {
+  border: 1px solid #333;
+  padding: 0 14px 14px 14px;
+  margin: 40px 0 0 0;
+  border-radius: 5px;
+
+  h3.required-header {
+    font-size: 20px;
+    font-family: "bebas_neueregular";
+    letter-spacing: 0.5px;
+  }
+
+  .toogleswitch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .imagesection-collection-feature {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .textcontainer {
+    padding: 16px;
+    font-family: "space_grotesklight";
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    align-items: center;
+
+    .collection-feature-text {
+      margin: 0;
+      display: flex;
+      width: 100%;
+      // height: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

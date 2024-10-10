@@ -1,0 +1,5 @@
+apiVersion: V2
+appVersion: "1.0"
+description: A Helm chart for Kubernetes
+name: dgv-ui
+version: "#{MajorVersion}#.#{tag}#"

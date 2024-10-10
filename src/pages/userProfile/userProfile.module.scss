@@ -1,0 +1,568 @@
+@use "../../styles/fonts.module.scss";
+
+.user-profile-container {
+    .cover-photo {
+        width: 100%;
+        max-height: inherit;
+        height: 100%;
+        object-fit: cover;
+        display: flex;
+    }
+
+    .user-profile-header {
+        font-family: "space_grotesklight";
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: max-content;
+        min-height: 200px;
+        align-items: center;
+        justify-content: flex-end;
+        .userlistview {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 60%;
+            .user-name-date {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        }
+        .user-name-containver {
+            display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+            .user-name {
+                display: flex;
+                width: 100%;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 110%;
+                color: #333333;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            .followsec {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                color: #000;
+                .follower-count {
+                    padding: 0 5px 0 16px;
+                }
+            }
+            .socialmediaicons {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .collection-action-button-group {
+                display: inline-flex;
+                background: transparent;
+                box-shadow: none;
+            }
+            .namesec {
+                display: flex;
+                width: 90%;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                .create-collection-button {
+                    display: inline-flex;
+                    width: auto;
+                    min-width: 200px;
+                    height: max-content;
+                    color: white;
+                    background-color: black;
+                    border-radius: 12px;
+                    padding: 10px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    margin: 0 10px 10px 0;
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+                .mint-nft-button {
+                    display: inline-flex;
+                    width: auto;
+                    min-width: 100px;
+                    height: max-content;
+                    color: white;
+                    background-color: black;
+                    border-radius: 12px;
+                    padding: 10px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    margin: 0 10px 10px 0;
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+
+                .action-wrapper {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    margin: 10px 0 0 0;
+                }
+                .date-sec {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 50%;
+                }
+                .sociallinks {
+                    display: inline-flex;
+                    width: 50%;
+                    align-items: center;
+                    justify-content: flex-start;
+                }
+            }
+        }
+
+        .user-joining-date {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: #4f4f4f;
+            display: flex;
+            width: 100%;
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+
+        .user-action-container {
+            a {
+                // width: 427px;
+                // height: 68px;
+                color: white;
+                background-color: black;
+                border-radius: 12px;
+                padding: 10px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 31px;
+                /* identical to box height */
+
+                /* Gray 6 */
+
+                color: #f2f2f2;
+                margin-right: 10px;
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+            a:visited {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            a:active {
+                text-decoration: none;
+            }
+        }
+    }
+    .username-section {
+        display: flex;
+        width: 76%;
+    }
+
+    .select-seemore-container {
+        margin-right: 110px;
+    }
+}
+
+span.user-id {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 10px 0 0 0;
+}
+
+.MuiListItemText-primary {
+    font-weight: 600 !important;
+    font-size: medium !important;
+}
+
+.button-follow-container {
+    // .created-by-content {
+    //     display: flex;
+
+    .user-icon img {
+        border-radius: 20px;
+        max-width: 120px;
+    }
+    .user-details {
+        margin-left: 10px;
+    }
+
+    .user-name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+
+    button {
+    width: 100px;
+    height: 35px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0 24px;
+    letter-spacing: 0.5px;
+    }
+    // }
+}
+
+.stat-container {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.followerlist-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    .MuiAvatar-root {
+        margin: 2px;
+    }
+}
+
+.MuiTabs-root {
+    button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .Mui-selected {
+        font-size: 16px;
+    }
+}
+
+.notification-section {
+    .notification-data-preview-container {
+        display: flex;
+        height: 80vh;
+        width: 80%;
+        margin: 50px auto 50px auto;
+        .notification-data-table-container {
+            margin-right: 20px;
+            border: 2px solid yellow;
+            width: 50%;
+
+            .MuiTableContainer-root {
+                margin-top: 20px;
+                .MuiTablePagination-selectLabel,
+                .MuiInputBase-root {
+                    display: none;
+                }
+
+                .MuiBox-root {
+                    display: flex;
+                }
+                .MuiTableCell-head {
+                    font-family: "space_grotesklight";
+                    font-style: normal;
+                    font-weight: 450;
+                    font-size: 20px;
+                    line-height: 160%;
+                    /* or 32px */
+                    /* Gray 2 */
+
+                    color: #4f4f4f;
+                }
+                .MuiTableCell-body {
+                    font-family: "space_grotesklight";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 130%;
+                    /* or 32px */
+                    /* Gray 2 */
+
+                    color: #4f4f4f;
+                }
+            }
+        }
+
+        .notification-preview-container {
+            border: 2px solid green;
+            width: 50%;
+        }
+    }
+}
+
+.user-assets-action-section {
+    width: inherit;
+    display: flex;
+    padding: 0 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .tabsection {
+        padding: 0 24px;
+    }
+
+    .tabsection .MuiButtonBase-root {
+        display: inline-flex;
+        width: 25%;
+        text-transform: capitalize;
+        font-family: "poppinsregular";
+        min-height: 0px !important;
+        padding: 8px !important;
+    }
+
+    .tabsection .MuiButtonBase-root.MuiTab-root.Mui-selected {
+        color: #000;
+        border: 1px solid #000;
+        padding: 10px !important;
+        line-height: 14px;
+        display: inline-flex;
+        min-height: initial;
+        border-radius: 10px;
+        font-family: "poppinsregular";
+        text-transform: capitalize;
+    }
+
+    .tabsection .MuiTabs-flexContainer {
+        display: flex;
+        justify-content: start;
+    }
+
+    .tabsection .MuiTabs-indicator {
+        display: none;
+    }
+
+    .user-assets-section.profile.recentactivity{
+        width: 75%;
+    }
+    .recentactivity{
+        display: flex;
+        width: 25%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .user-assets-section.profile{
+        width: 100%;
+    }
+
+    .user-action-public-view {
+        width: 100%;
+        margin: 0;
+        min-height: 250px;
+        // max-height: 275px;
+        border-top-left-radius: 17px;
+        background: #2b2b2b;
+        border-top-right-radius: 17px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        color: #ffffff;
+        text-transform: uppercase;
+
+        .user-action-content {
+            .MuiList-root {
+                padding-top: 0;
+                background: #2b2b2b;
+                text-transform: capitalize;
+                border-bottom-right-radius: 17px;
+                border-bottom-left-radius: 17px;
+                .MuiTypography-root {
+                    color: #f2f2f2;
+                    font-family: "space_grotesklight";
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 140%;
+                }
+            }
+        }
+    }
+
+    .user-assets-onsale {
+        width: 100%;
+        .tokens-heading {
+            margin-left: 10px;
+            margin-left: 30px;
+            padding: 5px;
+            text-align: center;
+            font-family: "bebas_neueregular";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+        }
+
+        .user-assets-onsale-container {
+            margin-top: 20px;
+        }
+    }
+}
+
+.notification-preview-container {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    img {
+        max-width: 200px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .cardview {
+        min-height: 50px;
+        max-width: 170px;
+        border-radius: 0 0 20px 20px;
+        padding: 15px;
+
+        span {
+            font-family: "poppinsregular";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 120%;
+        }
+
+        .asset-wallet-id {
+            font-family: "space_grotesklight";
+            font-size: 12px;
+        }
+    }
+
+    .notification-preview-details {
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 50%;
+        .notification-preview-header {
+            background-color: #2b2b2b;
+            border-radius: 10px;
+            width: 80px;
+            height: 40px;
+
+            span {
+                color: #ffffff;
+                padding: 5px;
+                margin-top: 2px;
+            }
+        }
+
+        .notification-preview-message {
+            border: 1px solid #2b2b2b;
+            border-radius: 10px;
+            width: 200px;
+            height: 50px;
+        }
+
+        .notification-action {
+            display: flex;
+            flex-direction: column;
+            input {
+                width: 100%;
+            }
+
+            .sale-action-button {
+                display: flex;
+
+                button {
+                    background: #000000;
+                    border-radius: 12px;
+                    width: 100%;
+                    margin: 1px;
+                }
+            }
+        }
+    }
+}
+
+.profile-photo {
+    max-height: 400px;
+}
+
+.user-assets-container,
+.user-assets-onsale-container {
+    .seemore button {
+        margin-top: 10px;
+    }
+}
+
+span.image-approved {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .user-profile-container {
+        .user-profile-header {
+            width: 100%;
+            box-sizing: border-box;
+            .userlistview {
+                width: 100%;
+            }
+            .user-name-containver {
+                .namesec {
+                    .action-wrapper {
+                        margin: 10px 0;
+                    }
+                    .create-collection-button {
+                        margin: 0 10px 10px 0;
+                    }
+                    .mint-nft-button {
+                        margin: 0 10px 10px 0;
+                    }
+                }
+            }
+        }
+
+        .user-assets-section.profile.recentactivity{
+            width: 100%;
+        }
+
+        .recentactivity {
+            width: 100%;
+        }
+    }
+    .user-assets-action-section {
+        .tabsection{
+            .MuiButtonBase-root{
+                width: auto;
+            }
+        } 
+        .user-assets-section {
+            width: 100%;
+        }
+    }
+}

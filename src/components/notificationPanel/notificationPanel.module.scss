@@ -1,0 +1,89 @@
+.notifyouter {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    .notification-list {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 8px #ddd;
+        border-radius: 10px;
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(0, 2.3em);
+        min-width: 20em;
+        z-index: 10;
+
+        a {
+            text-decoration: none;
+        }
+
+        .notification-result {
+            padding: 10px 20px 0 20px;
+            display: flex;
+            min-height: inherit;
+            max-height: 300px;
+            overflow-y: auto;
+            color: #696969;
+            justify-content: flex-end;
+            &:hover{
+                color: #000;
+                font-weight: 500;
+            }
+
+            span.notification-message {
+                display: inline-flex;
+                width: 100%;
+                height: max-content;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 5px 0;
+            }
+            .user-like-button{
+                color: #ccc;
+            }
+        }
+
+        // .notification-result:hover {
+        //     background-color: #efefef;
+        // }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            display: inline-flex;
+            background: white;
+            top: -0.2em;
+            right: 0.8em;
+            transform: rotate(45deg);
+        }
+        .viewall {
+            margin: 0 0 10px 0;
+            padding: 0px;
+            font-size: 13px;
+            text-transform: capitalize;
+            min-width: 80px;
+            letter-spacing: 0.5px;
+            color: #000000;
+            border: 1px solid #cfcfcf;
+            font-family: 'space_grotesklight';
+            &:hover{
+            color: #000000;
+            border: 1px solid #cfcfcf;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .notifyouter{
+        .notification-list{
+            min-width: 18em;
+        }
+    }
+}

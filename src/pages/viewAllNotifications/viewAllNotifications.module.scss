@@ -1,0 +1,110 @@
+@use "../../styles/fonts.module.scss";
+
+.view-all-notifications {
+    width: 60%;
+    margin: auto;
+
+    .notification-result {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    span.notifyimage {
+        display: inline-flex;
+        width: 16px;
+        height: 16px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px 0 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .van-container {
+        width: 80%;
+        margin: 24px 0;
+    }
+
+  
+
+    .van-date {
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        color: #333;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 40%;
+            height: 1px;
+            background: #b8b8b8;
+            left: 0;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 40%;
+            height: 1px;
+            background: #b8b8b8;
+            right: 0;
+        }
+    }
+
+    .van-container-group {
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 16px;
+        box-shadow: 4px 4px 8px 0px #b0b0b0;
+        margin: 10px 0 16px 0;
+        background: #f2f2f2;
+
+        a {
+            text-decoration: none;
+        }
+        &:hover {
+            background: #fff;
+        }
+    }
+
+    /* Solid border */
+    hr.solid {
+        border-top: 3px solid #bbb;
+    }
+
+    hr.dotted {
+        border-top: 3px dotted #bbb;
+    }
+}
+
+@media only screen and (max-width:769px){
+    .view-all-notifications{
+        width: 100%;
+        .van-container{
+            width: 80%;
+            margin: 0 auto;
+            .van-date{
+                &::before{
+                    width: 30%;
+                }
+                &::after{
+                    width: 30%;
+                }
+            }
+        }
+    }
+}

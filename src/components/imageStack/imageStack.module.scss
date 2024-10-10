@@ -1,0 +1,144 @@
+/* For image overlapping */
+
+
+%editicon{
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    color: #000;
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    box-shadow: 4px 2px 10px 0px #000;
+    cursor: pointer;
+}
+
+
+.image-stack {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    position: relative;
+}
+
+/* For IE 11 */
+.image-stack::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.image-stack__item--top {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    max-height: inherit;
+    height: 290px;
+    min-height: 290px;
+    img{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    span.editicon {
+        @extend %editicon;
+    }
+}
+
+.image-stack__item--bottom {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(80px, 50%);
+    border-radius: 15px;
+    border: 1px solid #000;
+    box-shadow: 3px 4px 10px 0px rgba(21, 21, 21, 0.6392156863);
+    z-index: 9;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    span.editicon {
+        @extend %editicon;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .image-stack__item--bottom{
+    width: 50%;
+    height: 50%;
+    position: static;
+    transform: translate(0,0);
+    margin: 14px;
+    }
+    .user-profile-header{
+        width: 100%;
+        padding: 14px;
+    }
+   
+}
+
+/* Browser that supports grid */
+@supports (display: grid) {
+    // @mixin image-stack {
+    //     display: grid;
+    //     position: relative; // imperative for the overlapping to work
+    //     grid-template-columns: repeat(12, 1fr);
+    // }
+
+    // .image-stack__item--bottom {
+    //     @include image-stack;
+    //     grid-column: 4 / 1;
+    //     grid-row: 1;
+    //     width: 100%;
+    // }
+
+    // .image-stack__item--top {
+    //     @include image-stack;
+    //     grid-row: 1;
+    //     grid-column: 2;
+    //     padding: 20% 0 0 15%; // slightly arbitrary, keeps proportion once resized
+    //     width: 100%;
+    //     max-height: 300px;
+    //     z-index: -1;
+
+    //     img {
+    //         border: 2px solid white;
+    //         border-radius: 25px;
+    //         width: 400px;
+    //         height: 400px;
+    //     }
+    // }
+}
+
+@media only screen and (max-width:768px){
+    .image-stack{
+        align-items: center;
+        justify-content: center;
+        .image-stack__item--top{
+            position: relative;
+            height: auto;
+            min-height: auto;
+        }
+        .image-stack__item--bottom{
+            position: static;
+            width: 80%;
+            transform: translate(0,0);
+        }
+        .image-stack__item--bottom{
+            width: 150px;
+        }
+    }
+}

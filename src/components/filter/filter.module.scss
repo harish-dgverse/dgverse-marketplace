@@ -1,0 +1,103 @@
+@mixin btnview {
+    display: inline-flex;
+    width: 50%;
+    box-sizing: border-box;
+
+    .applybtn {
+        width: 100%;
+        line-height: 20px;
+    }
+}
+
+
+.btnsection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .apply {
+        @include btnview();
+        padding: 0 5px 0 0;
+    }
+
+    .cancel {
+        @include btnview();
+        padding: 0 0 0 5px;
+
+    }
+}
+
+.filterclass-header {
+    font-size: 20pt;
+}
+
+.checkboxsec {
+    padding: 40px 0;
+    border-bottom: 1px solid #474747;
+}
+
+.checkboxsec:last-child {
+    border-bottom: none;
+}
+
+.checkboxsec .MuiCheckbox-root {
+    color: #474747 !important;
+}
+.listtextpart {
+    padding: 0 0 40px 0;
+  }
+  
+  .listtextpart h1 {
+    font-family: "bebas_neueregular";
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 500;
+  }
+  
+  .listtextpart p {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 1rem;
+    font-family: "space_grotesklight";
+  }
+  .applysec {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: max-content;
+    flex-direction: row;
+  }
+
+  span.filtertitle {
+    display: flex;
+    width: 50%;
+    margin: 0;
+    font-family: "poppinsregular";
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+  .applysec .MuiButtonBase-root.applybtn {
+    font-size: 12px;
+    font-family: "space_grotesklight";
+    color: #4f4f4f;
+    border-color: #4f4f4f;
+    line-height: 14px;
+    max-height: 30px;
+    min-width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+  }
+  .filtercheck{
+    padding: 0;
+  }

@@ -1,0 +1,30 @@
+{
+	"user_id": 2,
+	"user_name": "Intercepted user",
+	"user_role": "1",
+	"created_at": "2022-12-24T12:13:39.607Z",
+	"Wallet": [
+		{
+			"wallet_address": "0.0.47694622"
+		}
+	],
+	"SocialMedia": [
+		{
+			"media": "insta",
+			"url": "user 1"
+		},
+		{
+			"media": "twitter",
+			"url": "twitter 2"
+		}
+	],
+	"image": {
+		"icon": "user 2.png",
+		"cover_pic": null,
+		"display_pic": "user 2.png",
+		"thumbnail": "user 2.png"
+	},
+	"_count": {
+		"userFollowers": 2
+	}
+}

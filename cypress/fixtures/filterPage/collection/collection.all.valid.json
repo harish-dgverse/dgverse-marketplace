@@ -1,0 +1,519 @@
+{
+    "paginatedData": [
+        {
+            "name": "FT Sample",
+            "token_id": "0.0.3904130",
+            "total_supply": 10,
+            "symbol": "FTS",
+            "timestamp": "2023-10-12T17:59:57.819Z",
+            "token_type": "ft",
+            "token_category": "Others",
+            "ft_sales_price": 1,
+            "status": null,
+            "supply_key": true,
+            "freeze_key": true,
+            "pause_key": true,
+            "kyc_key": false,
+            "wipe_key": true,
+            "user": {
+                "user_name": "Mainnet harish",
+                "subscriptionType": "platinum",
+                "verified": 2,
+                "user_id": 60,
+                "timestamp": "2023-10-10T18:07:08.653Z",
+                "Wallet": [
+                    {
+                        "wallet_id": 42,
+                        "wallet_address": "0.0.3866550"
+                    }
+                ],
+                "image": {
+                    "display_pic": "exists",
+                    "cover_pic": null,
+                    "icon": "exists"
+                },
+                "SocialMedia": []
+            },
+            "image": {
+                "cover_pic": "0.0.3904130.jpeg",
+                "display_pic": "0.0.3904130.jpeg",
+                "icon": "0.0.3904130.jpeg"
+            },
+            "SocialToken": [
+                {
+                    "ownedBy": 60,
+                    "ownedByWalletId": "0.0.3866550",
+                    "volume": 98,
+                    "ownedByUser": {
+                        "user_name": "Mainnet harish",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 60,
+                        "Wallet": [
+                            {
+                                "wallet_id": 42
+                            }
+                        ],
+                        "image": {
+                            "image_id": 64,
+                            "display_pic": "exists",
+                            "cover_pic": null,
+                            "icon": "exists"
+                        }
+                    },
+                    "saleDetails": {
+                        "saleId": 65,
+                        "saleMode": "DIRECT_SALE",
+                        "quotedPrice": 1,
+                        "expiresAt": null,
+                        "timestamp": "2023-10-12T18:22:01.083Z",
+                        "sellerId": 60,
+                        "volume": 8,
+                        "tokenType": "ft",
+                        "NFT": null,
+                        "token": {
+                            "token_id": "0.0.3904130"
+                        }
+                    }
+                },
+                {
+                    "ownedBy": 65,
+                    "ownedByWalletId": "0.0.3901317",
+                    "volume": 2,
+                    "ownedByUser": {
+                        "user_name": "dgverse-test-user",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 65,
+                        "Wallet": [
+                            {
+                                "wallet_id": 47
+                            }
+                        ],
+                        "image": {
+                            "image_id": 79,
+                            "display_pic": "exists",
+                            "cover_pic": null,
+                            "icon": "exists"
+                        }
+                    }
+                }
+            ],
+            "social_media": [],
+            "additional_info": [],
+            "_count": {
+                "UserShare": 0,
+                "UserView": 15,
+                "UserLike": 0
+            },
+            "inMarketCount": 8,
+            "nftDetails": [],
+            "salePrice": 1,
+            "socialTokenDetails": [
+                {
+                    "ownedBy": 60,
+                    "ownedByWalletId": "0.0.3866550",
+                    "volume": 98,
+                    "ownedByUser": {
+                        "user_name": "Mainnet harish",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 60,
+                        "Wallet": [
+                            {
+                                "wallet_id": 42
+                            }
+                        ],
+                        "image": {
+                            "image_id": 64,
+                            "display_pic": "exists",
+                            "cover_pic": null,
+                            "icon": "exists"
+                        }
+                    },
+                    "saleDetails": {
+                        "saleId": 65,
+                        "saleMode": "DIRECT_SALE",
+                        "quotedPrice": 1,
+                        "expiresAt": null,
+                        "timestamp": "2023-10-12T18:22:01.083Z",
+                        "sellerId": 60,
+                        "volume": 8,
+                        "tokenType": "ft",
+                        "NFT": null,
+                        "token": {
+                            "token_id": "0.0.3904130"
+                        }
+                    }
+                },
+                {
+                    "ownedBy": 65,
+                    "ownedByWalletId": "0.0.3901317",
+                    "volume": 2,
+                    "ownedByUser": {
+                        "user_name": "dgverse-test-user",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 65,
+                        "Wallet": [
+                            {
+                                "wallet_id": 47
+                            }
+                        ],
+                        "image": {
+                            "image_id": 79,
+                            "display_pic": "exists",
+                            "cover_pic": null,
+                            "icon": "exists"
+                        }
+                    }
+                }
+            ],
+            "history": [
+                {
+                    "message": "2 FTS(s) was bought by dgverse-test-user for 1 Hbar",
+                    "timestamp": "2023-10-12T18:27:40.023Z"
+                },
+                {
+                    "message": "FT Collection was created",
+                    "timestamp": "2023-10-12T17:59:57.819Z"
+                }
+            ],
+            "count": {
+                "UserShare": 0,
+                "UserView": 15,
+                "UserLike": 0
+            },
+            "ranking": {
+                "rank": 6
+            },
+            "actionsAvailable": [
+                "Delete collection"
+            ]
+        },
+        {
+            "name": "as",
+            "token_id": "0.0.4536933",
+            "total_supply": 10,
+            "symbol": "as",
+            "timestamp": "2023-10-11T20:03:09.233Z",
+            "token_type": "ft",
+            "token_category": "Utility tokens",
+            "ft_sales_price": 1,
+            "status": null,
+            "supply_key": true,
+            "freeze_key": false,
+            "pause_key": false,
+            "kyc_key": false,
+            "wipe_key": false,
+            "user": {
+                "user_name": "University of Lorem Ipsum",
+                "subscriptionType": "platinum",
+                "verified": 2,
+                "user_id": 64,
+                "timestamp": "2023-10-10T21:24:09.905Z",
+                "Wallet": [
+                    {
+                        "wallet_id": 46,
+                        "wallet_address": "0.0.2264691"
+                    }
+                ],
+                "image": {
+                    "display_pic": "exists",
+                    "cover_pic": "exists",
+                    "icon": "exists"
+                },
+                "SocialMedia": []
+            },
+            "image": {
+                "cover_pic": "0.0.4536933.jpeg",
+                "display_pic": "0.0.4536933.jpeg",
+                "icon": "0.0.4536933.jpeg"
+            },
+            "SocialToken": [
+                {
+                    "ownedBy": 64,
+                    "ownedByWalletId": "0.0.2264691",
+                    "volume": 10,
+                    "ownedByUser": {
+                        "user_name": "University of Lorem Ipsum",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 64,
+                        "Wallet": [
+                            {
+                                "wallet_id": 46
+                            }
+                        ],
+                        "image": {
+                            "image_id": 69,
+                            "display_pic": "exists",
+                            "cover_pic": "exists",
+                            "icon": "exists"
+                        }
+                    }
+                }
+            ],
+            "social_media": [],
+            "additional_info": [],
+            "_count": {
+                "UserShare": 0,
+                "UserView": 0,
+                "UserLike": 0
+            },
+            "inMarketCount": 0,
+            "nftDetails": [],
+            "socialTokenDetails": [
+                {
+                    "ownedBy": 64,
+                    "ownedByWalletId": "0.0.2264691",
+                    "volume": 10,
+                    "ownedByUser": {
+                        "user_name": "University of Lorem Ipsum",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 64,
+                        "Wallet": [
+                            {
+                                "wallet_id": 46
+                            }
+                        ],
+                        "image": {
+                            "image_id": 69,
+                            "display_pic": "exists",
+                            "cover_pic": "exists",
+                            "icon": "exists"
+                        }
+                    }
+                }
+            ],
+            "history": [
+                {
+                    "message": "FT Collection was created",
+                    "timestamp": "2023-10-11T20:03:09.233Z"
+                }
+            ],
+            "count": {
+                "UserShare": 0,
+                "UserView": 0,
+                "UserLike": 0
+            },
+            "ranking": {
+                "rank": 17
+            },
+            "actionsAvailable": [
+                "Delete collection",
+                "Burn tokens"
+            ]
+        },
+        {
+            "name": "Exhibition by Artist",
+            "token_id": "0.0.4529984",
+            "total_supply": 10.5,
+            "symbol": "ET",
+            "timestamp": "2023-10-10T23:45:57.819Z",
+            "token_type": "ft",
+            "token_category": "Digital Art",
+            "ft_sales_price": 10,
+            "status": null,
+            "supply_key": true,
+            "freeze_key": true,
+            "pause_key": true,
+            "kyc_key": false,
+            "wipe_key": true,
+            "user": {
+                "user_name": "Artist",
+                "subscriptionType": "platinum",
+                "verified": 2,
+                "user_id": 57,
+                "timestamp": "2023-09-27T22:47:18.524Z",
+                "Wallet": [
+                    {
+                        "wallet_id": 39,
+                        "wallet_address": "0.0.2264849"
+                    }
+                ],
+                "image": {
+                    "display_pic": "exists",
+                    "cover_pic": null,
+                    "icon": "exists"
+                },
+                "SocialMedia": []
+            },
+            "image": {
+                "cover_pic": null,
+                "display_pic": "0.0.4529984.jpeg",
+                "icon": "0.0.4529984.jpeg"
+            },
+            "SocialToken": [
+                {
+                    "ownedBy": 57,
+                    "ownedByWalletId": "0.0.2264849",
+                    "volume": 91,
+                    "ownedByUser": {
+                        "user_name": "Artist",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 57,
+                        "Wallet": [
+                            {
+                                "wallet_id": 39
+                            }
+                        ],
+                        "image": {
+                            "image_id": 53,
+                            "display_pic": "exists",
+                            "cover_pic": null,
+                            "icon": "exists"
+                        }
+                    },
+                    "saleDetails": {
+                        "saleId": 62,
+                        "saleMode": "DIRECT_SALE",
+                        "quotedPrice": 10,
+                        "expiresAt": null,
+                        "timestamp": "2023-10-11T00:17:34.685Z",
+                        "sellerId": 57,
+                        "volume": 2,
+                        "tokenType": "ft",
+                        "NFT": null,
+                        "token": {
+                            "token_id": "0.0.4529984"
+                        }
+                    }
+                },
+                {
+                    "ownedBy": 63,
+                    "ownedByWalletId": "0.0.2264810",
+                    "volume": 15,
+                    "ownedByUser": {
+                        "user_name": "John H Doemann",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 63,
+                        "Wallet": [
+                            {
+                                "wallet_id": 45
+                            }
+                        ],
+                        "image": {
+                            "image_id": 68,
+                            "display_pic": "exists",
+                            "cover_pic": null,
+                            "icon": "exists"
+                        }
+                    }
+                }
+            ],
+            "social_media": [],
+            "additional_info": [],
+            "_count": {
+                "UserShare": 0,
+                "UserView": 27,
+                "UserLike": 0
+            },
+            "inMarketCount": 2,
+            "nftDetails": [],
+            "salePrice": 10,
+            "socialTokenDetails": [
+                {
+                    "ownedBy": 57,
+                    "ownedByWalletId": "0.0.2264849",
+                    "volume": 91,
+                    "ownedByUser": {
+                        "user_name": "Artist",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 57,
+                        "Wallet": [
+                            {
+                                "wallet_id": 39
+                            }
+                        ],
+                        "image": {
+                            "image_id": 53,
+                            "display_pic": "exists",
+                            "cover_pic": null,
+                            "icon": "exists"
+                        }
+                    },
+                    "saleDetails": {
+                        "saleId": 62,
+                        "saleMode": "DIRECT_SALE",
+                        "quotedPrice": 10,
+                        "expiresAt": null,
+                        "timestamp": "2023-10-11T00:17:34.685Z",
+                        "sellerId": 57,
+                        "volume": 2,
+                        "tokenType": "ft",
+                        "NFT": null,
+                        "token": {
+                            "token_id": "0.0.4529984"
+                        }
+                    }
+                },
+                {
+                    "ownedBy": 63,
+                    "ownedByWalletId": "0.0.2264810",
+                    "volume": 15,
+                    "ownedByUser": {
+                        "user_name": "John H Doemann",
+                        "subscriptionType": "platinum",
+                        "verified": 2,
+                        "user_id": 63,
+                        "Wallet": [
+                            {
+                                "wallet_id": 45
+                            }
+                        ],
+                        "image": {
+                            "image_id": 68,
+                            "display_pic": "exists",
+                            "cover_pic": null,
+                            "icon": "exists"
+                        }
+                    }
+                }
+            ],
+            "history": [
+                {
+                    "message": "3 ET(s) was bought by John H Doemann for 10 Hbar",
+                    "timestamp": "2023-10-11T00:18:11.092Z"
+                },
+                {
+                    "message": "Exhibition by Artist was transferred to John H Doemann",
+                    "timestamp": "2023-10-11T00:17:19.709Z"
+                },
+                {
+                    "message": "Exhibition by Artist was transferred to John H Doemann",
+                    "timestamp": "2023-10-11T00:15:09.892Z"
+                },
+                {
+                    "message": "Exhibition by Artist was transferred to John H Doemann",
+                    "timestamp": "2023-10-11T00:10:17.813Z"
+                },
+                {
+                    "message": "FT Collection was created",
+                    "timestamp": "2023-10-10T23:45:57.819Z"
+                }
+            ],
+            "count": {
+                "UserShare": 0,
+                "UserView": 27,
+                "UserLike": 0
+            },
+            "ranking": {
+                "rank": 4
+            },
+            "actionsAvailable": [
+                "Delete collection",
+                "Freeze an account",
+                "Unfreeze an account",
+                "Pause Collection",
+                "Burn tokens",
+                "Wipe tokens"
+            ]
+        }
+    ],
+    "totalCount": 11
+}

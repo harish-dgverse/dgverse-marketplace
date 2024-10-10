@@ -1,0 +1,17 @@
+.related-nft-container {
+    min-height: 50vh;
+
+    .related-nft {
+        display: flex;
+        justify-content: space-around;
+        .related-nft-navigator {
+            color: white !important;
+            width: 10%;
+        }
+
+        .collectionpart {
+            width: 100%;
+            padding: 0 0 24px 0;
+        }
+    }
+}

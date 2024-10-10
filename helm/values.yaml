@@ -1,0 +1,18 @@
+namespace: "dgv-frontend"
+system: dgv-ui
+service:
+  name: dgv-ui
+  image:
+    repoURI: "dgvmvp.azurecr.io"
+    name: "dgvmvp"
+    tag: "ui-#{tag}#"
+    replicaCount: 2
+    imagePullPolicy: Always
+version: 1
+ingress:
+  gateWayName: "dgv-gateway/dgv-gateway"
+  host: "www.dgverse.in"
+configMap:
+  fileName: config.yaml
+  content:
+    NODE_ENV: mvp

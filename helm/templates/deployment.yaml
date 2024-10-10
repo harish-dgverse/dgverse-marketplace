@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: {{ .Values.service.name }}
+ namespace: {{ .Values.namespace }}
+ labels:
+   app.kubernetes.io/name: {{ .Values.service.name | quote }}
+   app.kubernetes.io/part-of: {{ .Values.system | quote }}
+   app.kubernetes.io/managed-by: {{ .Release.Service | quote }}
+   app: {{ .Values.service.name | quote }}
+   chart: {{ .Values.service.name | quote }}
+   heritage: {{ .Release.Service }}
+   release: {{ .Release.Name }}
+spec:
+  replicas: {{ .Values.service.image.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Values.service.name }}
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:    
+      labels:
+        app: {{ .Values.service.name }}
+      annotations:
+        sidecar.istio.io/inject: "true"
+    spec:
+      # tolerations:
+      # - key: "app"
+      #   operator: "Equal"
+      #   value: "dgv-app"
+      #   effect: "NoSchedule"
+      # affinity:
+      #   nodeAffinity:
+      #     requiredDuringSchedulingIgnoredDuringExecution:
+      #       nodeSelectorTerms:
+      #       - matchExpressions:
+      #         - key: app
+      #           operator: In
+      #           values: 
+      #           - dgv-app
+      containers:
+      - name: {{ .Values.service.name | quote }}
+        image: {{ .Values.service.image.repoURI }}/{{ .Values.service.image.name }}:{{ .Values.service.image.tag }}
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 4000
+        resources:
+          requests:
+            cpu: 100m          
+        envFrom:
+        - configMapRef:
+             name: {{ (print .Values.service.name "-config") | quote }}
+      restartPolicy: Always
+      schedulerName: default-scheduler

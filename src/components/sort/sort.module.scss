@@ -1,0 +1,14 @@
+.filterclass-header {
+    font-size: 20pt;
+}
+
+.checkboxsec {
+    padding: 40px 0;
+    border-bottom: 1px solid #474747;
+}
+.checkboxsec:last-child {
+    border-bottom: none;
+}
+.checkboxsec .MuiCheckbox-root {
+    color: #474747 !important;
+}

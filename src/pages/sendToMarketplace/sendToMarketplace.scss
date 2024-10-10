@@ -1,0 +1,188 @@
+
+p, span, div, input {
+    font-family: 'space_grotesklight';
+}
+
+@mixin createbtn{
+    background: #000000;
+    color: #fff;
+    min-width: 200px;
+    font-size: 15px;
+    font-family: 'space_grotesklight';
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    border-radius: 12px;
+    &:hover{
+        background: #000;
+        font-size: 15px;
+    }
+}
+@mixin cancelbtn{
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 12px;
+    color: #000;
+    min-width: 200px;
+    font-size: 15px;
+    font-family: 'space_grotesklight';
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    &:hover{
+        background: transparent;
+        font-size: 15px;
+    }
+}
+
+@mixin leftback{
+    background: url('../../assets/bg-doodles/leftbkg.svg');
+    display: flex;
+    width: 9%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    z-index: -1;
+}
+@mixin rightback{
+    background: url('../../assets/bg-doodles/rightbkg.svg');
+    display: flex;
+    width: 16%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.send-to-marketplace-outer-container {
+    position: relative;
+}
+.leftview{
+    @include leftback();
+}
+.rightview{
+   @include rightback();
+}
+
+
+.send-to-marketplace-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+    select {
+        min-width: 200px;
+    }
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .sale-type-sub-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+    .send-to-marketplace-fields-container {
+        margin-top: 5%;
+
+        .description-collection {
+            margin-top: 5px;
+        }
+        .MuiGrid2-root.MuiGrid2-container{
+            padding: 0 0 10px 0;
+            .MuiFormControl-root.MuiTextField-root{
+                min-width: 50%;
+            }
+            .additional-fields{
+                min-width: 50%;
+            }
+        }
+    }
+}
+
+.send-to-marketplace-action-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    button {
+        border-radius: 12px;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 5px;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        width: 150px;
+    }
+
+    button:hover {
+        background: grey;
+    }
+    .create-button {
+        @include createbtn;
+     }
+    
+     .discard-button {
+         @include cancelbtn;
+     }
+   
+}
+
+@media only screen and (max-width:600px){
+    .form-inline{
+        .additional-fields{
+           min-width: 100%;
+       }
+    }
+    .rightview{
+        display: none;
+    }
+    .leftview{
+        display: none;
+    }
+    .send-to-marketplace-action-button{
+        .discard-button{
+            min-width: auto;
+        }
+        .create-button{
+            min-width: auto;
+        }
+    }
+    .send-to-marketplace-container{
+        .send-to-marketplace-fields-container {    
+            .MuiGrid2-root.MuiGrid2-container{
+                .MuiFormControl-root.MuiTextField-root{
+                    min-width: 100%;
+                    margin: 10px 0 0 0;
+                }
+                .additional-fields{
+                    min-width: 100%;
+                    margin: 10px 0 0 0;
+                }
+            }
+        }
+    }
+    
+}

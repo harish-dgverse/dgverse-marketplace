@@ -1,0 +1,87 @@
+@mixin createbtn {
+    background: #000000;
+    color: #fff;
+    min-width: 90px;
+    font-size: 15px;
+    font-family: "space_grotesklight";
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    border-radius: 12px;
+
+    &:hover {
+        background: #000;
+        font-size: 15px;
+    }
+}
+
+@mixin cancelbtn {
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 12px;
+    color: #000;
+    min-width: 90px;
+    font-size: 15px;
+    font-family: "space_grotesklight";
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+
+    &:hover {
+        background: transparent;
+        font-size: 15px;
+    }
+}
+
+@mixin leftback {
+    background: url("../assets/bg-doodles/leftbkg.svg");
+    display: flex;
+    width: 9%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    z-index: -1;
+}
+
+@mixin rightback {
+    background: url("../assets/bg-doodles/rightbkg.svg");
+    display: flex;
+    width: 16%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+@mixin content-box-mixin {
+    border: 1px solid #bdbdbd;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+@mixin resetbtn {
+    color: #333;
+    font-size: 14px;
+    font-family: "space_grotesklight";
+    letter-spacing: 0.5px;
+    margin: 0 0 0 10px;
+    line-height: 14px;
+    height: 35px;
+    font-weight: 900;
+
+    &:hover {
+        font-size: 14px;
+        color: #000;
+        background: transparent
+    }
+}

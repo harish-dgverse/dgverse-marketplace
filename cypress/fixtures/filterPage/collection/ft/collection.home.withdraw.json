@@ -1,0 +1,213 @@
+{
+	"name": "Exhibition by Artist",
+	"token_id": "0.0.4529984",
+	"total_supply": 10.5,
+	"symbol": "ET",
+	"timestamp": "2023-10-10T23:45:57.819Z",
+	"token_type": "ft",
+	"token_category": "Digital Art",
+	"ft_sales_price": 10,
+	"status": null,
+	"supply_key": true,
+	"freeze_key": true,
+	"pause_key": true,
+	"kyc_key": false,
+	"wipe_key": true,
+	"user": {
+		"user_name": "Artist",
+		"subscriptionType": "platinum",
+		"verified": 2,
+		"user_id": 57,
+		"timestamp": "2023-09-27T22:47:18.524Z",
+		"Wallet": [
+			{
+				"wallet_id": 39,
+				"wallet_address": "0.0.2264849"
+			}
+		],
+		"image": {
+			"display_pic": "exists",
+			"cover_pic": null,
+			"icon": "exists"
+		},
+		"SocialMedia": []
+	},
+	"image": {
+		"cover_pic": null,
+		"display_pic": "0.0.4529984.jpeg",
+		"icon": "0.0.4529984.jpeg"
+	},
+	"SocialToken": [
+		{
+			"ownedBy": 57,
+			"ownedByWalletId": "0.0.2264849",
+			"volume": 91,
+			"ownedByUser": {
+				"user_name": "Artist",
+				"subscriptionType": "platinum",
+				"verified": 2,
+				"user_id": 57,
+				"Wallet": [
+					{
+						"wallet_id": 39
+					}
+				],
+				"image": {
+					"image_id": 53,
+					"display_pic": "exists",
+					"cover_pic": null,
+					"icon": "exists"
+				}
+			},
+			"saleDetails": {
+				"saleId": 62,
+				"saleMode": "DIRECT_SALE",
+				"quotedPrice": 10,
+				"expiresAt": null,
+				"timestamp": "2023-10-11T00:17:34.685Z",
+				"sellerId": 57,
+				"volume": 2,
+				"tokenType": "ft",
+				"NFT": null,
+				"token": {
+					"token_id": "0.0.4529984"
+				}
+			}
+		},
+		{
+			"ownedBy": 63,
+			"ownedByWalletId": "0.0.2264810",
+			"volume": 15,
+			"ownedByUser": {
+				"user_name": "John H Doemann",
+				"subscriptionType": "platinum",
+				"verified": 2,
+				"user_id": 63,
+				"Wallet": [
+					{
+						"wallet_id": 45
+					}
+				],
+				"image": {
+					"image_id": 68,
+					"display_pic": "exists",
+					"cover_pic": null,
+					"icon": "exists"
+				}
+			}
+		}
+	],
+	"social_media": [],
+	"additional_info": [],
+	"_count": {
+		"UserShare": 0,
+		"UserView": 18,
+		"UserLike": 0
+	},
+	"inMarketCount": 2,
+	"nftDetails": [],
+	"salePrice": 10,
+	"socialTokenDetails": [
+		{
+			"ownedBy": 57,
+			"ownedByWalletId": "0.0.2264849",
+			"volume": 91,
+			"ownedByUser": {
+				"user_name": "Artist",
+				"subscriptionType": "platinum",
+				"verified": 2,
+				"user_id": 57,
+				"Wallet": [
+					{
+						"wallet_id": 39
+					}
+				],
+				"image": {
+					"image_id": 53,
+					"display_pic": "exists",
+					"cover_pic": null,
+					"icon": "exists"
+				}
+			},
+			"saleDetails": {
+				"saleId": 62,
+				"saleMode": "DIRECT_SALE",
+				"quotedPrice": 10,
+				"expiresAt": null,
+				"timestamp": "2023-10-11T00:17:34.685Z",
+				"sellerId": 57,
+				"volume": 2,
+				"tokenType": "ft",
+				"NFT": null,
+				"token": {
+					"token_id": "0.0.4529984"
+				}
+			}
+		},
+		{
+			"ownedBy": 63,
+			"ownedByWalletId": "0.0.2264810",
+			"volume": 15,
+			"ownedByUser": {
+				"user_name": "John H Doemann",
+				"subscriptionType": "platinum",
+				"verified": 2,
+				"user_id": 63,
+				"Wallet": [
+					{
+						"wallet_id": 45
+					}
+				],
+				"image": {
+					"image_id": 68,
+					"display_pic": "exists",
+					"cover_pic": null,
+					"icon": "exists"
+				}
+			}
+		}
+	],
+	"history": [
+		{
+			"message": "3 ET(s) was bought by John H Doemann for 10 Hbar",
+			"timestamp": "2023-10-11T00:18:11.092Z"
+		},
+		{
+			"message": "Exhibition by Artist was transferred to John H Doemann",
+			"timestamp": "2023-10-11T00:17:19.709Z"
+		},
+		{
+			"message": "Exhibition by Artist was transferred to John H Doemann",
+			"timestamp": "2023-10-11T00:15:09.892Z"
+		},
+		{
+			"message": "Exhibition by Artist was transferred to John H Doemann",
+			"timestamp": "2023-10-11T00:10:17.813Z"
+		},
+		{
+			"message": "FT Collection was created",
+			"timestamp": "2023-10-10T23:45:57.819Z"
+		}
+	],
+	"count": {
+		"UserShare": 0,
+		"UserView": 18,
+		"UserLike": 0
+	},
+	"userActions": {
+		"like": false,
+		"favorite": false,
+		"follow": false
+	},
+	"ranking": {
+		"rank": 4
+	},
+	"actionsAvailable": [
+		"Delete collection",
+		"Freeze an account",
+		"Unfreeze an account",
+		"Pause Collection",
+		"Burn tokens",
+		"Wipe tokens"
+	]
+}

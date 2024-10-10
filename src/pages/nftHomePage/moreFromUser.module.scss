@@ -1,0 +1,28 @@
+.more-from-user-container {
+    min-height: 50vh;
+    .more-headers {
+        display: flex;
+        padding: 10px 0 24px 24px;
+    }
+
+    .more-from-user {
+        width: 100%;
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-left: 0;
+    padding: 0 16px 24px 16px;
+    }
+
+    .more {
+        display: inline-flex;
+    min-width: 150px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 10px;
+    width: auto;
+    border-radius: 15px;
+    &:hover{
+        border: 1px solid #fafafa;
+    }
+    }
+}

@@ -1,0 +1,658 @@
+{
+    "paginatedData": [
+        {
+            "nft_name": "Winning moment sorted",
+            "nft_id": "0.0.15397475.1",
+            "timestamp": "2023-09-17T06:14:52.780Z",
+            "description": "World cup winning moments. Dhoni finishes off in style",
+            "status": null,
+            "image": {
+                "cover_pic": "0.0.15397475.1.jpeg",
+                "display_pic": "0.0.15397475.1.jpeg",
+                "icon": "0.0.15397475.1.jpeg"
+            },
+            "token": {
+                "token_id": "0.0.15397475",
+                "name": "2011 World Cup Moments",
+                "symbol": null,
+                "timestamp": "2023-09-17T06:14:52.764Z",
+                "token_type": "nft",
+                "token_category": "Photography",
+                "image": {
+                    "cover_pic": "0.0.15397475.jpeg",
+                    "display_pic": "0.0.15397475.jpeg",
+                    "icon": "0.0.15397475.jpeg"
+                }
+            },
+            "user": {
+                "user_name": "BCCI",
+                "subscriptionType": "gold",
+                "verified": 2,
+                "user_id": 7,
+                "Wallet": [
+                    {
+                        "wallet_id": 1,
+                        "wallet_address": "0.0.15397434"
+                    }
+                ],
+                "image": {
+                    "image_id": 1,
+                    "display_pic": "7.jpeg",
+                    "cover_pic": "7.jpeg",
+                    "icon": "7.jpeg"
+                },
+                "SocialMedia": [
+                    {
+                        "media": "insta",
+                        "url": "https://www.instagram.com/bcci.update/?hl=en"
+                    },
+                    {
+                        "media": "twitter",
+                        "url": "https://twitter.com/BCCI"
+                    },
+                    {
+                        "media": "fb",
+                        "url": "https://www.facebook.com/IndianCricketTeam"
+                    },
+                    {
+                        "media": "discord",
+                        "url": "https://discord.com/BCCI"
+                    },
+                    {
+                        "media": "yt",
+                        "url": "https://www.youtube.com/@bcciofficial"
+                    }
+                ]
+            },
+            "mintedByUser": {
+                "user_name": "BCCI",
+                "subscriptionType": "gold",
+                "verified": 2,
+                "user_id": 7,
+                "Wallet": [
+                    {
+                        "wallet_id": 1
+                    }
+                ],
+                "image": {
+                    "image_id": 1,
+                    "display_pic": "7.jpeg",
+                    "cover_pic": "7.jpeg",
+                    "icon": "7.jpeg"
+                },
+                "SocialMedia": [
+                    {
+                        "media": "insta",
+                        "url": "https://www.instagram.com/bcci.update/?hl=en"
+                    },
+                    {
+                        "media": "twitter",
+                        "url": "https://twitter.com/BCCI"
+                    },
+                    {
+                        "media": "fb",
+                        "url": "https://www.facebook.com/IndianCricketTeam"
+                    },
+                    {
+                        "media": "discord",
+                        "url": "https://discord.com/BCCI"
+                    },
+                    {
+                        "media": "yt",
+                        "url": "https://www.youtube.com/@bcciofficial"
+                    }
+                ]
+            },
+            "social_media": [
+                {
+                    "media": "insta",
+                    "url": "https://www.instagram.com/bcci.update/?hl=en"
+                },
+                {
+                    "media": "twitter",
+                    "url": "https://twitter.com/BCCI"
+                },
+                {
+                    "media": "fb",
+                    "url": "https://www.facebook.com/IndianCricketTeam"
+                },
+                {
+                    "media": "discord",
+                    "url": "https://discord.com/BCCI"
+                },
+                {
+                    "media": "yt",
+                    "url": "https://www.youtube.com/@bcciofficial"
+                }
+            ],
+            "_count": {
+                "UserShare": 1,
+                "UserView": 55,
+                "UserLike": 1
+            },
+            "nft_type": "nft",
+            "nft_category": "Photography",
+            "saleDetails": {
+                "saleId": 25,
+                "saleMode": "DIRECT_SALE",
+                "quotedPrice": 10,
+                "expiresAt": null,
+                "timestamp": "2023-09-29T16:16:14.272Z",
+                "sellerId": 7,
+                "volume": 1,
+                "tokenType": "nft",
+                "NFT": {
+                    "nft_id": "0.0.15397475.1"
+                },
+                "token": null
+            },
+            "salePrice": 10,
+            "ranking": {
+                "rank": 2
+            },
+            "count": {
+                "UserShare": 1,
+                "UserView": 55,
+                "UserLike": 1
+            }
+        },
+        {
+            "nft_name": "Beating pakistan",
+            "nft_id": "0.0.15397475.3",
+            "timestamp": "2023-09-17T06:14:52.802Z",
+            "description": "Sachin scoring 83 in first batting and getting reprieve 3 times",
+            "status": null,
+            "image": {
+                "cover_pic": "0.0.15397475.3.jpeg",
+                "display_pic": "0.0.15397475.3.jpeg",
+                "icon": "0.0.15397475.3.jpeg"
+            },
+            "token": {
+                "token_id": "0.0.15397475",
+                "name": "2011 World Cup Moments",
+                "symbol": null,
+                "timestamp": "2023-09-17T06:14:52.764Z",
+                "token_type": "nft",
+                "token_category": "Photography",
+                "image": {
+                    "cover_pic": "0.0.15397475.jpeg",
+                    "display_pic": "0.0.15397475.jpeg",
+                    "icon": "0.0.15397475.jpeg"
+                }
+            },
+            "user": {
+                "user_name": "Mohanlal Viswanathan nair",
+                "subscriptionType": "basic",
+                "verified": 0,
+                "user_id": 20,
+                "Wallet": [
+                    {
+                        "wallet_id": 2,
+                        "wallet_address": "0.0.15397435"
+                    }
+                ],
+                "image": {
+                    "image_id": 2,
+                    "display_pic": "20.jpeg",
+                    "cover_pic": "20.jpeg",
+                    "icon": "20.jpeg"
+                },
+                "SocialMedia": [
+                    {
+                        "media": "insta",
+                        "url": "https://www.instagram.com/bcci.update/?hl=en"
+                    },
+                    {
+                        "media": "twitter",
+                        "url": "https://twitter.com/BCCI"
+                    },
+                    {
+                        "media": "fb",
+                        "url": "https://www.facebook.com/IndianCricketTeam"
+                    },
+                    {
+                        "media": "discord",
+                        "url": "https://discord.com/BCCI"
+                    },
+                    {
+                        "media": "yt",
+                        "url": "https://www.youtube.com/@bcciofficial"
+                    }
+                ]
+            },
+            "mintedByUser": {
+                "user_name": "BCCI",
+                "subscriptionType": "gold",
+                "verified": 2,
+                "user_id": 7,
+                "Wallet": [
+                    {
+                        "wallet_id": 1
+                    }
+                ],
+                "image": {
+                    "image_id": 1,
+                    "display_pic": "7.jpeg",
+                    "cover_pic": "7.jpeg",
+                    "icon": "7.jpeg"
+                },
+                "SocialMedia": [
+                    {
+                        "media": "insta",
+                        "url": "https://www.instagram.com/bcci.update/?hl=en"
+                    },
+                    {
+                        "media": "twitter",
+                        "url": "https://twitter.com/BCCI"
+                    },
+                    {
+                        "media": "fb",
+                        "url": "https://www.facebook.com/IndianCricketTeam"
+                    },
+                    {
+                        "media": "discord",
+                        "url": "https://discord.com/BCCI"
+                    },
+                    {
+                        "media": "yt",
+                        "url": "https://www.youtube.com/@bcciofficial"
+                    }
+                ]
+            },
+            "social_media": [
+                {
+                    "media": "insta",
+                    "url": "https://www.instagram.com/bcci.update/?hl=en"
+                },
+                {
+                    "media": "twitter",
+                    "url": "https://twitter.com/BCCI"
+                },
+                {
+                    "media": "fb",
+                    "url": "https://www.facebook.com/IndianCricketTeam"
+                },
+                {
+                    "media": "discord",
+                    "url": "https://discord.com/BCCI"
+                },
+                {
+                    "media": "yt",
+                    "url": "https://www.youtube.com/@bcciofficial"
+                }
+            ],
+            "_count": {
+                "UserShare": 0,
+                "UserView": 7,
+                "UserLike": 0
+            },
+            "nft_type": "nft",
+            "nft_category": "Photography",
+            "ranking": {
+                "rank": 6
+            },
+            "count": {
+                "UserShare": 0,
+                "UserView": 7,
+                "UserLike": 0
+            }
+        },
+        {
+            "nft_name": "SBT #2",
+            "nft_id": "0.0.2050787.2",
+            "timestamp": "2023-09-20T04:22:16.308Z",
+            "description": "description",
+            "status": null,
+            "image": {
+                "cover_pic": null,
+                "display_pic": "0.0.2050787.2.jpeg",
+                "icon": "0.0.2050787.2.jpeg"
+            },
+            "token": {
+                "token_id": "0.0.2050787",
+                "name": "SBT on Chain",
+                "symbol": null,
+                "timestamp": "2023-09-20T03:43:49.528Z",
+                "token_type": "sbt",
+                "token_category": null,
+                "image": {
+                    "cover_pic": null,
+                    "display_pic": "0.0.2050787.jpeg",
+                    "icon": "0.0.2050787.jpeg"
+                }
+            },
+            "user": {
+                "user_name": "Alice",
+                "subscriptionType": "silver",
+                "verified": 0,
+                "user_id": 21,
+                "Wallet": [
+                    {
+                        "wallet_id": 3,
+                        "wallet_address": "0.0.1137819"
+                    }
+                ],
+                "image": {
+                    "image_id": 13,
+                    "display_pic": "21.jpeg",
+                    "cover_pic": null,
+                    "icon": "21.jpeg"
+                },
+                "SocialMedia": []
+            },
+            "mintedByUser": {
+                "user_name": "Charlie",
+                "subscriptionType": "platinum",
+                "verified": 1,
+                "user_id": 22,
+                "Wallet": [
+                    {
+                        "wallet_id": 4
+                    }
+                ],
+                "image": {
+                    "image_id": 14,
+                    "display_pic": "22.jpeg",
+                    "cover_pic": null,
+                    "icon": "22.jpeg"
+                },
+                "SocialMedia": []
+            },
+            "social_media": [],
+            "_count": {
+                "UserShare": 0,
+                "UserView": 4,
+                "UserLike": 0
+            },
+            "nft_type": "sbt",
+            "nft_category": null,
+            "ranking": {
+                "rank": 4
+            },
+            "count": {
+                "UserShare": 0,
+                "UserView": 4,
+                "UserLike": 0
+            }
+        },
+        {
+            "nft_name": "#1",
+            "nft_id": "0.0.2181873.1",
+            "timestamp": "2023-09-21T04:26:19.668Z",
+            "description": "#1",
+            "status": null,
+            "image": {
+                "cover_pic": null,
+                "display_pic": "0.0.2181873.1.jpeg",
+                "icon": "0.0.2181873.1.jpeg"
+            },
+            "token": {
+                "token_id": "0.0.2181873",
+                "name": "NFT",
+                "symbol": null,
+                "timestamp": "2023-09-21T04:25:24.845Z",
+                "token_type": "nft",
+                "token_category": "Photography",
+                "image": {
+                    "cover_pic": null,
+                    "display_pic": "0.0.2181873.jpeg",
+                    "icon": "0.0.2181873.jpeg"
+                }
+            },
+            "user": {
+                "user_name": "Mohanlal Viswanathan nair",
+                "subscriptionType": "basic",
+                "verified": 0,
+                "user_id": 20,
+                "Wallet": [
+                    {
+                        "wallet_id": 2,
+                        "wallet_address": "0.0.15397435"
+                    }
+                ],
+                "image": {
+                    "image_id": 2,
+                    "display_pic": "20.jpeg",
+                    "cover_pic": "20.jpeg",
+                    "icon": "20.jpeg"
+                },
+                "SocialMedia": [
+                    {
+                        "media": "insta",
+                        "url": "https://www.instagram.com/bcci.update/?hl=en"
+                    },
+                    {
+                        "media": "twitter",
+                        "url": "https://twitter.com/BCCI"
+                    },
+                    {
+                        "media": "fb",
+                        "url": "https://www.facebook.com/IndianCricketTeam"
+                    },
+                    {
+                        "media": "discord",
+                        "url": "https://discord.com/BCCI"
+                    },
+                    {
+                        "media": "yt",
+                        "url": "https://www.youtube.com/@bcciofficial"
+                    }
+                ]
+            },
+            "mintedByUser": {
+                "user_name": "Charlie",
+                "subscriptionType": "platinum",
+                "verified": 1,
+                "user_id": 22,
+                "Wallet": [
+                    {
+                        "wallet_id": 4
+                    }
+                ],
+                "image": {
+                    "image_id": 14,
+                    "display_pic": "22.jpeg",
+                    "cover_pic": null,
+                    "icon": "22.jpeg"
+                },
+                "SocialMedia": []
+            },
+            "social_media": [],
+            "_count": {
+                "UserShare": 0,
+                "UserView": 52,
+                "UserLike": 0
+            },
+            "nft_type": "nft",
+            "nft_category": "Photography",
+            "ranking": {
+                "rank": 1
+            },
+            "count": {
+                "UserShare": 0,
+                "UserView": 52,
+                "UserLike": 0
+            }
+        },
+        {
+            "nft_name": "Digital art #1",
+            "nft_id": "0.0.4529749.1",
+            "timestamp": "2023-10-10T21:47:36.016Z",
+            "description": "Digital art #1",
+            "status": null,
+            "image": {
+                "cover_pic": "0.0.4529749.1.jpeg",
+                "display_pic": "0.0.4529749.1.jpeg",
+                "icon": "0.0.4529749.1.jpeg"
+            },
+            "token": {
+                "token_id": "0.0.4529749",
+                "name": "Collection of digital arts",
+                "symbol": null,
+                "timestamp": "2023-10-10T21:41:42.199Z",
+                "token_type": "nft",
+                "token_category": "Digital Art",
+                "image": {
+                    "cover_pic": "0.0.4529749.jpeg",
+                    "display_pic": "0.0.4529749.jpeg",
+                    "icon": "0.0.4529749.jpeg"
+                }
+            },
+            "user": {
+                "user_name": "John H Doemann",
+                "subscriptionType": "platinum",
+                "verified": 2,
+                "user_id": 63,
+                "Wallet": [
+                    {
+                        "wallet_id": 45,
+                        "wallet_address": "0.0.2264810"
+                    }
+                ],
+                "image": {
+                    "image_id": 68,
+                    "display_pic": "exists",
+                    "cover_pic": null,
+                    "icon": "exists"
+                },
+                "SocialMedia": [
+                    {
+                        "media": "insta",
+                        "url": "instagram.com/john"
+                    },
+                    {
+                        "media": "twitter",
+                        "url": "twitter.com/john"
+                    }
+                ]
+            },
+            "mintedByUser": {
+                "user_name": "Artist",
+                "subscriptionType": "platinum",
+                "verified": 2,
+                "user_id": 57,
+                "Wallet": [
+                    {
+                        "wallet_id": 39
+                    }
+                ],
+                "image": {
+                    "image_id": 53,
+                    "display_pic": "exists",
+                    "cover_pic": null,
+                    "icon": "exists"
+                },
+                "SocialMedia": []
+            },
+            "social_media": [
+                {
+                    "media": "insta",
+                    "url": "instagram.com/collection-#1"
+                }
+            ],
+            "_count": {
+                "UserShare": 0,
+                "UserView": 1,
+                "UserLike": 0
+            },
+            "nft_type": "nft",
+            "nft_category": "Digital Art",
+            "ranking": {
+                "rank": 3
+            },
+            "count": {
+                "UserShare": 0,
+                "UserView": 1,
+                "UserLike": 0
+            }
+        },
+        {
+            "nft_name": "BA Arts certificate for John",
+            "nft_id": "0.0.4529779.1",
+            "timestamp": "2023-10-10T22:04:37.583Z",
+            "description": "BA Arts certificate for John",
+            "status": null,
+            "image": {
+                "cover_pic": null,
+                "display_pic": "0.0.4529779.1.jpeg",
+                "icon": "0.0.4529779.1.jpeg"
+            },
+            "token": {
+                "token_id": "0.0.4529779",
+                "name": "Bachelor of arts in design",
+                "symbol": null,
+                "timestamp": "2023-10-10T22:03:31.094Z",
+                "token_type": "sbt",
+                "token_category": null,
+                "image": {
+                    "cover_pic": "0.0.4529779.jpeg",
+                    "display_pic": "0.0.4529779.jpeg",
+                    "icon": "0.0.4529779.jpeg"
+                }
+            },
+            "user": {
+                "user_name": "John H Doemann",
+                "subscriptionType": "platinum",
+                "verified": 2,
+                "user_id": 63,
+                "Wallet": [
+                    {
+                        "wallet_id": 45,
+                        "wallet_address": "0.0.2264810"
+                    }
+                ],
+                "image": {
+                    "image_id": 68,
+                    "display_pic": "exists",
+                    "cover_pic": null,
+                    "icon": "exists"
+                },
+                "SocialMedia": [
+                    {
+                        "media": "insta",
+                        "url": "instagram.com/john"
+                    },
+                    {
+                        "media": "twitter",
+                        "url": "twitter.com/john"
+                    }
+                ]
+            },
+            "mintedByUser": {
+                "user_name": "University of Lorem Ipsum",
+                "subscriptionType": "platinum",
+                "verified": 2,
+                "user_id": 64,
+                "Wallet": [
+                    {
+                        "wallet_id": 46
+                    }
+                ],
+                "image": {
+                    "image_id": 69,
+                    "display_pic": "exists",
+                    "cover_pic": "exists",
+                    "icon": "exists"
+                },
+                "SocialMedia": []
+            },
+            "social_media": [],
+            "_count": {
+                "UserShare": 0,
+                "UserView": 7,
+                "UserLike": 0
+            },
+            "nft_type": "sbt",
+            "nft_category": null,
+            "ranking": {
+                "rank": 5
+            },
+            "count": {
+                "UserShare": 0,
+                "UserView": 7,
+                "UserLike": 0
+            }
+        }
+    ],
+    "totalCount": 6
+}

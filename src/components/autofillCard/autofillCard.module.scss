@@ -1,0 +1,63 @@
+.autofill-outer{
+  .search-user-by-wallet {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 10px 0 0 0;
+      padding: 0;
+      box-shadow: 3px 3px 12px 0px #c0c0c0;
+      border-radius: 10px;
+      overflow: hidden;
+      max-width: 400px;
+  
+      a.userlink {
+          display: inline-flex;
+          width: 100px;
+          height: 100px;
+          overflow: hidden;
+          border-radius: 0;
+      }
+  
+      .user-details {
+          display: inline-flex;
+          width: calc(100% - 110px);
+          padding: 0;
+          align-items: flex-start;
+          justify-content: center;
+          height: 100%;
+          font-family: 'space_grotesklight';
+  
+          a {
+              text-decoration: none;
+          }
+      }
+      .user-icon {
+        max-width: 100px;
+    }
+
+    .user-details {
+        padding: 10px;
+        margin-left: 10px;
+
+        .user-name {
+            font-size: 24px;
+            font-weight: 600;
+            white-space: nowrap;
+            word-break: break-word;
+            width: 290px;
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+  }
+}
+
+@media only screen and (max-width:769px){
+  .autofill-outer{
+    .search-user-by-wallet{
+      padding: 0;
+    }
+  }
+}

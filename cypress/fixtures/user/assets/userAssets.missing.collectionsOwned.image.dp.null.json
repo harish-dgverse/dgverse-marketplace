@@ -1,0 +1,82 @@
+{
+	"collectionsOwned": [
+		{
+			"name": "All Ape Kind",
+			"is_nft": true,
+			"total_supply": "1",
+			"created_at": "2022-12-24T12:31:25.745Z",
+			"token_id": "0.0.47694637",
+			"wallet": {
+				"wallet_address": "0.0.47694622",
+				"wallet_client": "hashpack"
+			},
+			"image": {
+				"display_pic": null
+			},
+			"user": {
+				"user_name": "sample",
+				"user_id": 2,
+				"image": {
+					"icon": "user 2.png"
+				}
+			}
+		}
+	],
+	"nftOwned": [],
+	"nftCreated": [],
+	"nftCollected": [
+		{
+			"nft_name": "Antartican ice",
+			"nft_id": "0.0.47694636.1",
+			"status": null,
+			"created_at": "2022-12-24T12:31:25.760Z",
+			"token": {
+				"token_id": "0.0.47694636",
+				"name": "Collection of antartica"
+			},
+			"wallet": {
+				"wallet_address": "0.0.47694621",
+				"wallet_client": "hashpack"
+			},
+			"image": {
+				"display_pic": "nft 1.1.png"
+			},
+			"user": {
+				"user_name": "sample",
+				"user_id": 2,
+				"image": {
+					"icon": "user 2.png"
+				}
+			},
+			"saleDetails": {
+				"saleMode": "DIRECT_SALE_WITH_COUNTER",
+				"quotedPrice": 100,
+				"expiresAt": "2022-12-24T12:31:25.000Z",
+				"timestamp": "2022-12-24T12:31:25.789Z",
+				"saleId": 2,
+				"NFT": {
+					"nft_id": "0.0.47694636.1"
+				},
+				"Auction": null,
+				"dutchAuction": null,
+				"directSale": {
+					"directSaleId": 2,
+					"directSaleCounterOffers": [
+						{
+							"counterOffer": 20,
+							"operationType": "SELLER_COUNTER",
+							"timestamp": "2023-03-09T07:59:23.510Z",
+							"user": {
+								"user_name": "sample",
+								"user_id": 2,
+								"image": {
+									"cover_pic": "token cp 1.png"
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

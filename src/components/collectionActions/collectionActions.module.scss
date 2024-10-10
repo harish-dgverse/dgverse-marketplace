@@ -1,0 +1,691 @@
+@import '../../mixins/common.scss';
+
+.collection-action-page-container {
+    .inputfield{
+        .MuiFormControl-root.MuiTextField-root{
+            min-width: 50%;
+            margin: 0;
+        }
+    }
+    .additional-fields{
+        min-width: 50%;
+        margin: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .navsection{
+        .MuiGrid2-root{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-start;
+            flex-grow: 1;
+        }
+    }
+    .MuiGrid2-root{
+        margin: 10px 0 0 0;
+    }
+    .MuiFormControl-root.MuiTextField-root.tags-collection{
+        min-width: 50%;
+    }
+}
+
+.mint-nft-container {
+    width: 80%;
+    // border: 2px solid yellow;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .mint-nft-fields-container {
+        margin-top: 5%;
+
+        .description-collection {
+            margin-top: 0;
+            min-width: 50%;
+        }
+    }
+}
+
+.mint-nft-action-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    button {
+        border-radius: 12px;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 5px;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        width: 150px;
+    }
+
+    button:hover {
+        background: grey;
+    }
+    .create-button {
+        @include createbtn;
+     }
+    
+     .discard-button {
+         @include cancelbtn;
+     }
+}
+
+.burn-nft-outer-container {
+    .inputfield {
+        .MuiFormControl-root.MuiTextField-root {
+            min-width: 50%;
+            margin: 0;
+        }
+    }
+
+    .MuiInputBase-formControl {
+        margin: 0 0 10px 0;
+    }
+
+    .MuiFormControl-root.MuiTextField-root.tags-collection {
+        min-width: 50%;
+    }
+}
+
+.burn-nft-container {
+    width: 80%;
+    // border: 2px solid yellow;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .burn-nft-fields-container {
+        margin-top: 5%;
+    }
+}
+
+.burn-nft-action-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    button {
+        border-radius: 12px;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 5px;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        width: 150px;
+    }
+
+    button:hover {
+        background: grey;
+    }
+
+    .burn-button {
+        @include createbtn;
+    }
+
+    .discard-button {
+        @include cancelbtn;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .burn-nft-outer-container {
+        .additional-fields {
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+        .MuiFormControl-root.MuiTextField-root.tags-collection{
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+    }
+
+    .burn-nft-action-button {
+        .discard-button {
+            min-width: auto;
+        }
+    }
+    .burn-nft-container{
+        width: 90%;
+        .burn-nft-fields-container {    
+            .description-collection {
+                margin: 10px 0 0 0;
+                min-width: 100%;
+            }
+        }
+    }
+}
+.wipe-nft-outer-container {
+    .inputfield {
+        .MuiFormControl-root.MuiTextField-root {
+            min-width: 50%;
+            margin: 0;
+        }
+    }
+
+    .MuiInputBase-formControl {
+        margin: 0 0 10px 0;
+    }
+
+    .MuiFormControl-root.MuiTextField-root.tags-collection {
+        min-width: 50%;
+    }
+}
+
+.wipe-nft-container {
+    width: 80%;
+    // border: 2px solid yellow;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .wipe-nft-fields-container {
+        margin-top: 5%;
+    }
+}
+
+.wipe-nft-action-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    button {
+        border-radius: 12px;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 5px;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        width: 150px;
+    }
+
+    button:hover {
+        background: grey;
+    }
+
+    .wipe-button {
+        @include createbtn;
+    }
+
+    .discard-button {
+        @include cancelbtn;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .wipe-nft-outer-container {
+        .additional-fields {
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+        .MuiFormControl-root.MuiTextField-root.tags-collection{
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+    }
+
+    .wipe-nft-action-button {
+        .discard-button {
+            min-width: auto;
+        }
+    }
+    .wipe-nft-container{
+        width: 90%;
+        .wipe-nft-fields-container {    
+            .description-collection {
+                margin: 10px 0 0 0;
+                min-width: 100%;
+            }
+        }
+    }
+}
+
+.freeze-account-outer-container, .kyc-account-outer-container {
+    .inputfield {
+        .MuiFormControl-root.MuiTextField-root {
+            min-width: 50%;
+            margin: 0;
+        }
+    }
+
+    .MuiInputBase-formControl {
+        margin: 0 0 10px 0;
+    }
+
+    .MuiFormControl-root.MuiTextField-root.tags-collection {
+        min-width: 50%;
+    }
+}
+
+.freeze-account-container, .kyc-account-container {
+    width: 80%;
+    // border: 2px solid yellow;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .freeze-account-fields-container {
+        margin-top: 5%;
+    }
+}
+
+.freeze-account-action-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    button {
+        border-radius: 12px;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 5px;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        width: 150px;
+    }
+
+    button:hover {
+        background: grey;
+    }
+
+    .freeze-button {
+        @include createbtn;
+    }
+
+    .discard-button {
+        @include cancelbtn;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .freeze-account-outer-container, .kyc-account-outer-container {
+        .additional-fields {
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+        .MuiFormControl-root.MuiTextField-root.tags-collection{
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+    }
+
+    .freeze-account-action-button {
+        .discard-button {
+            min-width: auto;
+        }
+    }
+    .freeze-account-container, .kyc-account-container{
+        width: 90%;
+        .freeze-account-fields-container {    
+            .description-collection {
+                margin: 10px 0 0 0;
+                min-width: 100%;
+            }
+        }
+    }
+}
+
+.pause-token-outer-container {
+    .inputfield {
+        .MuiFormControl-root.MuiTextField-root {
+            min-width: 50%;
+            margin: 0;
+        }
+    }
+
+    .MuiInputBase-formControl {
+        margin: 0 0 10px 0;
+    }
+
+    .MuiFormControl-root.MuiTextField-root.tags-collection {
+        min-width: 50%;
+    }
+}
+
+.pause-token-container {
+    width: 80%;
+    // border: 2px solid yellow;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .pause-token-fields-container {
+        margin-top: 5%;
+    }
+}
+
+.pause-token-action-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    button {
+        border-radius: 12px;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 5px;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        width: 150px;
+    }
+
+    button:hover {
+        background: grey;
+    }
+
+    .pause-button {
+        @include createbtn;
+    }
+
+    .discard-button {
+        @include cancelbtn;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .pause-token-outer-container {
+        .additional-fields {
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+        .MuiFormControl-root.MuiTextField-root.tags-collection{
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+    }
+
+    .pause-token-action-button {
+        .discard-button {
+            min-width: auto;
+        }
+    }
+    .pause-token-container{
+        width: 90%;
+        .pause-token-fields-container {    
+            .description-collection {
+                margin: 10px 0 0 0;
+                min-width: 100%;
+            }
+        }
+    }
+}
+
+
+.token-associate-outer-container {
+    .inputfield {
+        .MuiFormControl-root.MuiTextField-root {
+            min-width: 50%;
+            margin: 0;
+        }
+    }
+
+    .MuiInputBase-formControl {
+        margin: 0 0 10px 0;
+    }
+
+    .MuiFormControl-root.MuiTextField-root.tags-collection {
+        min-width: 50%;
+    }
+}
+
+.token-associate-container {
+    width: 80%;
+    // border: 2px solid yellow;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .token-associate-fields-container {
+        margin-top: 5%;
+    }
+}
+
+.token-associate-action-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    button {
+        border-radius: 12px;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 5px;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        width: 150px;
+    }
+
+    button:hover {
+        background: grey;
+    }
+
+    .token-associate-button {
+        @include createbtn;
+    }
+
+    .discard-button {
+        @include cancelbtn;
+    }
+}
+
+.dropdown-container {
+    max-width: 380px;
+}
+
+@media only screen and (max-width:600px) {
+    .token-associate-outer-container {
+        .additional-fields {
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+        .MuiFormControl-root.MuiTextField-root.tags-collection{
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+    }
+
+    .token-associate-action-button {
+        .discard-button {
+            min-width: auto;
+        }
+    }
+    .token-associate-container{
+        width: 90%;
+        .token-associate-fields-container {    
+            .description-collection {
+                margin: 10px 0 0 0;
+                min-width: 100%;
+            }
+        }
+    }
+}
+
+.delete-token-outer-container {
+
+    .MuiInputBase-formControl {
+        margin: 0 0 10px 0;
+    }
+
+    .MuiFormControl-root.MuiTextField-root.tags-collection {
+        min-width: 50%;
+    }
+}
+
+.delete-token-container {
+    width: 80%;
+    // border: 2px solid yellow;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .delete-token-fields-container {
+        margin-top: 5%;
+    }
+}
+
+.delete-token-action-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    button {
+        border-radius: 12px;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 5px;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        width: 150px;
+    }
+
+    button:hover {
+        background: grey;
+    }
+
+    .delete-token-button {
+        @include createbtn;
+    }
+
+    .discard-button {
+        @include cancelbtn;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .delete-token-outer-container {
+        .additional-fields {
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+        .MuiFormControl-root.MuiTextField-root.tags-collection{
+            margin: 10px 0 0 0;
+            min-width: 100%;
+        }
+    }
+
+    .delete-token-action-button {
+        .discard-button {
+            min-width: auto;
+        }
+    }
+    .delete-token-container{
+        width: 90%;
+        .delete-token-fields-container {    
+            .description-collection {
+                margin: 10px 0 0 0;
+                min-width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px){
+        .mint-nft-action-button{
+            .discard-button {
+                min-width: auto;
+            }
+        }
+    
+}

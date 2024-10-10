@@ -1,0 +1,56 @@
+{
+	"user_id": 35,
+	"user_name": "BCCI",
+	"subscriptionType": "gold",
+	"verified": 2,
+	"user_role": "1",
+	"timestamp": "2023-09-17T06:14:52.732Z",
+	"Wallet": [
+		{
+			"wallet_address": "0.0.15397434"
+		}
+	],
+	"SocialMedia": [
+		{
+			"media": "insta",
+			"url": "https://www.instagram.com/bcci.update/?hl=en"
+		},
+		{
+			"media": "twitter",
+			"url": "https://twitter.com/BCCI"
+		},
+		{
+			"media": "fb",
+			"url": "https://www.facebook.com/IndianCricketTeam"
+		},
+		{
+			"media": "discord",
+			"url": "https://discord.com/BCCI"
+		},
+		{
+			"media": "yt",
+			"url": "https://www.youtube.com/@bcciofficial"
+		}
+	],
+	"image": {
+		"icon": "7.jpeg",
+		"cover_pic": "7.jpeg",
+		"display_pic": "7.jpeg",
+		"thumbnail": "7.jpeg"
+	},
+	"_count": {
+		"userFollowers": 0,
+		"Token": 4,
+		"nft": 3,
+		"UserView": 63
+	},
+	"userActions": {
+		"follow": false
+	},
+	"count": {
+		"userFollowers": 0,
+		"Token": 4,
+		"nft": 3,
+		"UserView": 63
+	}
+}

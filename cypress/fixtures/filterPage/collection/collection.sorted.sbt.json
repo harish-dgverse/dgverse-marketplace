@@ -1,0 +1,285 @@
+{
+	"paginatedData": [
+		{
+			"name": "SBT 2",
+			"token_id": "0.0.47694638",
+			"total_supply": "1",
+			"symbol": null,
+			"created_at": "2022-12-24T12:31:25.737Z",
+			"token_type": "Photography",
+			"user": {
+				"user_name": "dg user 1",
+				"user_id": 1,
+				"created_at": "2022-12-24T12:13:39.591Z",
+				"Wallet": [
+					{
+						"wallet_id": 1
+					}
+				],
+				"image": {
+					"display_pic": "user 1.png",
+					"cover_pic": "token cp 1.png",
+					"icon": "user 1.png"
+				},
+				"SocialMedia": [
+					{
+						"media": "insta",
+						"url": "user 1"
+					}
+				]
+			},
+			"image": {
+				"cover_pic": "token cp 1.png",
+				"display_pic": "token 1.png",
+				"icon": "token 1.png"
+			},
+			"UserLike": [
+				{
+					"like": true
+				},
+				{
+					"like": true
+				},
+				{
+					"like": false
+				},
+				{
+					"like": false
+				}
+			],
+			"UserShare": [],
+			"UserView": [
+				{
+					"view_id": 1
+				}
+			],
+			"social_media": [
+				{
+					"media": "insta",
+					"url": "xfdcgv"
+				},
+				{
+					"media": "fb",
+					"url": "fb link"
+				}
+			],
+			"additional_info": [],
+			"nftDetails": [
+				{
+					"nft_name": "Antartican ice",
+					"nft_id": "0.0.47694636.1",
+					"created_at": "2022-12-24T12:31:25.760Z",
+					"image": {
+						"cover_pic": null,
+						"display_pic": "nft 1.1.png",
+						"icon": "nft 1.1.png"
+					},
+					"UserLike": [],
+					"UserShare": [
+						{
+							"media": "insta",
+							"user_id": 1
+						},
+						{
+							"media": "insta",
+							"user_id": 2
+						}
+					],
+					"user": {
+						"user_name": "Cyber Punk",
+						"user_id": 3,
+						"Wallet": [
+							{
+								"wallet_id": 3
+							}
+						],
+						"image": {
+							"image_id": 3,
+							"display_pic": "user 3.png",
+							"cover_pic": "user 3.png",
+							"icon": "user 3.png"
+						}
+					},
+					"social_media": [
+						{
+							"media": "insta",
+							"url": "xfdcgv"
+						},
+						{
+							"media": "fb",
+							"url": "fb link"
+						}
+					],
+					"saleDetails": {
+						"saleMode": "DIRECT_SALE_WITH_COUNTER",
+						"quotedPrice": 100,
+						"expiresAt": "2022-12-24T12:31:25.000Z",
+						"timestamp": "2022-12-24T12:31:25.789Z",
+						"NFT": {
+							"nft_id": "0.0.47694636.1"
+						},
+						"Auction": null,
+						"dutchAuction": null,
+						"directSale": {
+							"directSaleCounterOffers": [
+								{
+									"counterOffer": 90,
+									"operationType": "BUYER_OFFER",
+									"timestamp": "2023-01-24T12:31:25.791Z",
+									"user": {
+										"user_name": "dg user 1",
+										"user_id": 1,
+										"image": {
+											"cover_pic": "token cp 1.png"
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}, 
+		{
+			"name": "SBT 1",
+			"token_id": "0.0.47694638",
+			"total_supply": "1",
+			"symbol": null,
+			"created_at": "2022-12-24T12:31:25.737Z",
+			"token_type": "Photography",
+			"user": {
+				"user_name": "dg user 1",
+				"user_id": 1,
+				"created_at": "2022-12-24T12:13:39.591Z",
+				"Wallet": [
+					{
+						"wallet_id": 1
+					}
+				],
+				"image": {
+					"display_pic": "user 1.png",
+					"cover_pic": "token cp 1.png",
+					"icon": "user 1.png"
+				},
+				"SocialMedia": [
+					{
+						"media": "insta",
+						"url": "user 1"
+					}
+				]
+			},
+			"image": {
+				"cover_pic": "token cp 1.png",
+				"display_pic": "token 1.png",
+				"icon": "token 1.png"
+			},
+			"UserLike": [
+				{
+					"like": true
+				},
+				{
+					"like": true
+				},
+				{
+					"like": false
+				},
+				{
+					"like": false
+				}
+			],
+			"UserShare": [],
+			"UserView": [
+				{
+					"view_id": 1
+				}
+			],
+			"social_media": [
+				{
+					"media": "insta",
+					"url": "xfdcgv"
+				},
+				{
+					"media": "fb",
+					"url": "fb link"
+				}
+			],
+			"additional_info": [],
+			"nftDetails": [
+				{
+					"nft_name": "Antartican ice",
+					"nft_id": "0.0.47694636.1",
+					"created_at": "2022-12-24T12:31:25.760Z",
+					"image": {
+						"cover_pic": null,
+						"display_pic": "nft 1.1.png",
+						"icon": "nft 1.1.png"
+					},
+					"UserLike": [],
+					"UserShare": [
+						{
+							"media": "insta",
+							"user_id": 1
+						},
+						{
+							"media": "insta",
+							"user_id": 2
+						}
+					],
+					"user": {
+						"user_name": "Cyber Punk",
+						"user_id": 3,
+						"Wallet": [
+							{
+								"wallet_id": 3
+							}
+						],
+						"image": {
+							"image_id": 3,
+							"display_pic": "user 3.png",
+							"cover_pic": "user 3.png",
+							"icon": "user 3.png"
+						}
+					},
+					"social_media": [
+						{
+							"media": "insta",
+							"url": "xfdcgv"
+						},
+						{
+							"media": "fb",
+							"url": "fb link"
+						}
+					],
+					"saleDetails": {
+						"saleMode": "DIRECT_SALE_WITH_COUNTER",
+						"quotedPrice": 100,
+						"expiresAt": "2022-12-24T12:31:25.000Z",
+						"timestamp": "2022-12-24T12:31:25.789Z",
+						"NFT": {
+							"nft_id": "0.0.47694636.1"
+						},
+						"Auction": null,
+						"dutchAuction": null,
+						"directSale": {
+							"directSaleCounterOffers": [
+								{
+									"counterOffer": 90,
+									"operationType": "BUYER_OFFER",
+									"timestamp": "2023-01-24T12:31:25.791Z",
+									"user": {
+										"user_name": "dg user 1",
+										"user_id": 1,
+										"image": {
+											"cover_pic": "token cp 1.png"
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	],
+	"totalCount": 2
+}

@@ -1,0 +1,46 @@
+.stat-container {
+    width: 80%;
+    margin: 4% auto;
+
+    .statistics-view {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+
+        .statistics-tile {
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #ccc;
+            padding: 16px 24px;
+            width: 25%;
+            box-sizing: border-box;
+            &:nth-child(4){
+                border-right: none;
+            }
+            span {
+                padding: 5px;
+                text-align: center;
+                font-family: "bebas_neueregular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 36px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .stat-container{
+        margin: 16px 0;
+        .statistics-view{
+            .statistics-tile{
+                width: 100%;
+                border-right: none;
+            }
+        } 
+    } 
+}

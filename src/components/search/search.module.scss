@@ -1,0 +1,76 @@
+.input-wrapper {
+    width: 100%;
+
+    .searchForm {
+        width: 100%;
+
+        .search-home {
+            width: 100%;
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+
+    .searchouter {
+        z-index: 999;
+        position: absolute;
+        left: 170px;
+        top: 20px;
+    }
+
+    .searchbox {
+        display: inline-flex;
+        width: auto;
+        min-width: 30em;
+        margin: 0 0 0 15px;
+        border-radius: 10px;
+        background: rgb(236 239 241 / 20%);
+        // .searchlist {
+        //     position: absolute;
+        //     height: auto;
+        //     z-index: 999;
+        //     left: 185px;
+        //     width: 300px;
+        // }
+    }
+
+    .searchbox .MuiButtonBase-root {
+        color: #fff;
+        padding: 5px 10px;
+    }
+
+    .searchbox .MuiInputBase-input {
+        color: #fff;
+    }
+
+    .MuiCircularProgress-root {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    section.navsection {
+        .input-wrapper {
+            .searchbox {
+                display: flex;
+                width: auto;
+                min-width: auto;
+                margin: 0 10px;
+                border-radius: 10px !important;
+                background: rgba(236, 239, 241, 0.2) !important;
+                max-width: 100%;
+
+                .searchlist {
+                    position: absolute;
+                    height: auto;
+                    z-index: 999;
+                    left: 155px;
+                    width: calc(100% - 165px);
+                }
+            }
+        }
+    }
+}

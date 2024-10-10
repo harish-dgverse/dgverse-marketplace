@@ -1,0 +1,87 @@
+@import "../../mixins/common.scss";
+.action-btns {
+  width: 50%;
+  margin: auto;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+
+  .slider-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    .slider-label {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+    }
+
+    .slider {
+      padding: 22px 0px;
+      margin-left: 32px;
+    }
+  }
+
+  .button-wrapper {
+    margin: auto;
+
+    button {
+      width: auto;
+      height: 40px;
+      background-color: black;
+      border-radius: 12px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 14px;
+      color: #f2f2f2;
+      margin: 5px;
+      border: none;
+      min-width: 100px;
+      cursor: pointer;
+    }
+  }
+  button.btn.btn-outline.discard-button {
+    @include cancelbtn;
+  }
+}
+
+.image-uploaded-container {
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: row;
+
+  .action-after-imageupload {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.image-upload-button-container {
+  .image-upload-button {
+    width: 50%;
+    height: 150px;
+    border: 1px dashed #000000;
+    // margin: 2% 0 2% 0;
+    border-radius: 0px;
+    margin: 0 0 10px 0;
+  }
+}
+
+.cropped-img {
+  max-height: 150px;
+}
+
+.reactEasyCrop_Container {
+  height: 70%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .reactEasyCrop_Container {
+    height: 60%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "collectionsOwned": [],
+  "nftOwned": [],
+  "nftCreated": [],
+  "nftCollected": [],
+  "nftOnSale": [],
+  "ftOnSale": [
+    {
+      "name": "DgVerse Coin",
+      "total_supply": 100,
+      "timestamp": "2023-10-13T13:21:16.988Z",
+      "token_id": "0.0.3908593",
+      "token_type": "ft",
+      "wallet": {
+        "wallet_address": "0.0.3908576",
+        "wallet_client": "hashpack"
+      },
+      "image": {
+        "display_pic": "0.0.3908593.jpeg"
+      },
+      "user": {
+        "user_name": "DgVerse",
+        "subscriptionType": "platinum",
+        "verified": 2,
+        "user_id": 35,
+        "image": {
+          "icon": "exists"
+        }
+      },
+      "Sale": [
+        {
+          "quotedPrice": 5,
+          "saleId": 11,
+          "sellerId": 35,
+          "volume": 47
+        }
+      ],
+      "saleDetails": [
+        {
+          "quotedPrice": 5,
+          "saleId": 11,
+          "sellerId": 35,
+          "volume": 47
+        }
+      ],
+      "salePrice": 5,
+      "inMarketCount": 47
+    }
+  ]
+}

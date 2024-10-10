@@ -1,0 +1,100 @@
+{
+	"nft": [
+		{
+			"nft_name": "Antartican ice",
+			"nft_type": "Photography",
+			"nft_id": "0.0.47694636.1",
+			"created_at": "2022-12-24T12:31:25.760Z",
+			"description": null,
+			"image": {
+				"cover_pic": null,
+				"display_pic":null,
+				"icon": "nft 1.1.png"
+			},
+			"token": {
+				"token_id": "0.0.47694636",
+				"name": "Collection of antartica",
+				"symbol": null,
+				"created_at": "2022-12-24T12:31:25.737Z",
+				"image": {
+					"cover_pic": "token cp 1.png",
+					"display_pic": "token 1.png",
+					"icon": "token 1.png"
+				}
+			},
+			"UserLike": [],
+			"UserView": [],
+			"UserShare": [
+				{
+					"media": "insta",
+					"user_id": 1
+				},
+				{
+					"media": "insta",
+					"user_id": 2
+				}
+			],
+			"user": {
+				"user_name": "dg user 1",
+				"user_id": 1,
+				"Wallet": [
+					{
+						"wallet_id": 1
+					}
+				],
+				"image": {
+					"image_id": 1,
+					"display_pic": "user 1.png",
+					"cover_pic": "1.jpeg",
+					"icon": "user 1.png"
+				},
+				"SocialMedia": [
+					{
+						"media": "insta",
+						"url": "user 1"
+					}
+				]
+			},
+			"social_media": [
+				{
+					"media": "insta",
+					"url": "xfdcgv"
+				},
+				{
+					"media": "fb",
+					"url": "fb link"
+				}
+			],
+			"additional_info": [],
+			"saleDetails": {
+				"saleMode": "DIRECT_SALE_WITH_COUNTER",
+				"quotedPrice": 100,
+				"expiresAt": "2022-12-24T12:31:25.000Z",
+				"timestamp": "2022-12-24T12:31:25.789Z",
+				"saleId": 2,
+				"NFT": {
+					"nft_id": "0.0.47694636.1"
+				},
+				"Auction": null,
+				"dutchAuction": null,
+				"directSale": {
+					"directSaleId": 2,
+					"directSaleCounterOffers": [
+						{
+							"counterOffer": 20,
+							"operationType": "SELLER_COUNTER",
+							"timestamp": "2023-03-09T07:59:23.510Z",
+							"user": {
+								"user_name": "sample",
+								"user_id": 2,
+								"image": {
+									"cover_pic": "token cp 1.png"
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

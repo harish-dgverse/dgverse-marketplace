@@ -1,0 +1,17 @@
+[
+  {
+    "type": "collectionsCreated",
+    "label": "Collections Created",
+    "value": 1
+  },
+  {
+    "type": "hbrCreated",
+    "label": "Volume generated",
+    "value": 10
+  },
+  {
+    "type": "nftCreated",
+    "label": "NFT Minted",
+    "value": 0
+  }
+]

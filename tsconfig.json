@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "./src", /* Base directory to resolve non-absolute module names. */
+    "paths": {
+      "@src/*": ["./*"],
+      // Assets
+      "@assets/*": ["assets/*"],
+      // Router
+      "@routes/*": ["routes/*"],
+      "@pages/*": ["pages/*"],
+      // Utils
+      "@utils/*": ["utils/*"],
+      "@const/*": ["utils/constants/*"],
+      "@hooks/*": ["hooks/*"],
+      // Components
+      "@components/*": ["components/*"],
+      "@layout/*": ["layout/*"],
+      // Services
+      "@services/*": ["services/*"]
+    } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src",
+    "./declaration.*.ts"
+  ]
+}

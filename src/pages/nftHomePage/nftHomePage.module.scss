@@ -1,0 +1,620 @@
+@use "../../styles/fonts.module.scss";
+@import '../../mixins/common.scss';
+
+.additionalouter {
+    padding: 0 !important;
+}
+
+.nftactivity {
+    padding: 0 !important;
+}
+
+span.button-follow-container {
+    display: inline-flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nft-home-page {
+    .cover-photo {
+        width: 100vw;
+        max-height: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .nft-name-containver {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+
+        .id-date {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .social-media-icons {
+            display: flex;
+            width: 50%;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+
+    .nft-mint-date {
+        display: flex;
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 24px;
+
+        span.nft-mint-date-text {
+            font-size: 14px;
+        }
+    }
+
+    .user-like-button {
+        display: inline-flex;
+        width: 45px;
+        height: 45px;
+        font-weight: 800;
+    }
+
+    .social-media-links {
+        padding: 0 24px;
+    }
+}
+
+.nft-header {
+    font-family: "space_grotesklight";
+    padding: 16px 0 0 0;
+    // width: 40%;
+    // margin-left: 50%;
+    // margin-top: -13%;
+    z-index: 1;
+
+    span.token-id {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        padding: 10px 0;
+    }
+
+    .nft-like-share-view-stat-container {
+        justify-content: flex-start;
+        padding: 0 24px;
+        margin: 0;
+    }
+
+    .nft-name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 110%;
+        color: #333333;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .nft-mint-date-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #4f4f4f;
+        display: flex;
+        width: 100%;
+        padding: 0 0 10px 0;
+        box-sizing: border-box;
+    }
+
+    .nft-share-container {
+        display: flex;
+
+        .nft-share-count {
+            margin-right: 5px;
+        }
+    }
+
+    .nft-price-container {
+        justify-content: space-between;
+
+        .nft-price {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 46px;
+            color: #333333;
+            display: flex;
+        }
+
+        .hbar-icon {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .nft-offer-container {
+        border: 1px solid #bdbdbd;
+
+        .nft-offer-label {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 46px;
+            color: #333333;
+            display: flex;
+        }
+
+        .nft-offer {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 46px;
+            color: #333333;
+            display: flex;
+        }
+
+        .hbar-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        .actioned-by-user {
+            .created-by-content {
+                display: flex;
+
+                .user-icon img {
+                    border-radius: 20px;
+                    max-width: 50px;
+                }
+
+                .user-details {
+                    margin-left: 10px;
+                    display: flex;
+
+                    .userview {
+                        display: flex;
+                        width: 100%;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+
+                        a {
+                            display: flex;
+                            width: 100%;
+                        }
+
+                        .social-media-icons {
+                            display: flex;
+                            width: 50%;
+
+                            .social-media-links {
+                                padding: 0;
+                            }
+                        }
+                    }
+
+
+                }
+
+                .user-name {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 31px;
+                    display: flex;
+                    align-items: center;
+                    color: #000000;
+                }
+
+                .joining-date {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    display: flex;
+                    align-items: center;
+                    color: #828282;
+                    display: flex;
+                    width: 50%;
+                }
+
+                button {
+                    width: auto;
+                    height: 35px;
+                    min-width: 100px;
+                    border: 2px solid #000;
+                    border-radius: 12px;
+                    margin: 2px;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 15px;
+                    line-height: 25px;
+                    display: flex;
+                    align-items: center;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    .nft-action-button {
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+        margin: 0;
+        font-family: "space_grotesklight";
+        font-style: normal;
+        line-height: 18px;
+        width: auto;
+        min-width: 160px;
+        @include createbtn;
+
+        :hover {
+            background: grey;
+        }
+
+        .mint-nft-action-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .Mui-disabled {
+        background: grey !important;
+    }
+}
+
+
+
+.nft-home-content {
+    width: 80%;
+    margin: 2% auto auto auto;
+    font-family: "space_grotesklight";
+
+    .content-headers {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #828282;
+        padding: 0 0 10px 0;
+    }
+
+    .content-para {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        /* or 32px */
+        color: #4f4f4f;
+
+        .see-more {
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+
+    .MuiPaper-elevation {
+        box-shadow: none;
+    }
+
+    .MuiButtonBase-root,
+    .MuiAccordionDetails-root {
+        padding: 0;
+    }
+
+    .MuiGrid-container {
+        justify-content: space-between;
+        padding: 16px 0 0 16px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        // margin-right:
+    }
+
+    .description-nft {
+        @include content-box-mixin;
+    }
+
+    .originally-minted-by-user {
+        margin-top: 15px;
+
+        .user-details {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .created-by-user,
+    .originally-minted-by-user {
+        @include content-box-mixin;
+
+        .created-by-content {
+            display: flex;
+
+            .user-icon img {
+                border-radius: 20px;
+                max-width: 120px;
+            }
+
+            .user-details {
+                margin-left: 10px;
+                display: flex;
+
+                .userview {
+                    display: flex;
+                    width: 100%;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+
+                    a {
+                        display: flex;
+                        width: 100%;
+                    }
+
+                    .social-media-icons {
+                        display: flex;
+                        width: 50%;
+
+                        .social-media-links {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+
+            .user-name {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 31px;
+                display: flex;
+                align-items: center;
+                color: #000000;
+            }
+
+            .joining-date {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                color: #828282;
+                display: flex;
+                width: 50%;
+            }
+
+            button {
+                width: auto;
+                height: 35px;
+                min-width: 100px;
+                border: 2px solid #000;
+                border-radius: 12px;
+                margin: 2px;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 14px;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                color: #000;
+            }
+        }
+    }
+
+    .additional-details-nft {
+        @include content-box-mixin;
+
+        .content-headers {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .MuiGrid-container {
+            margin-bottom: 5px;
+        }
+    }
+
+    .tags-grid {
+        @include content-box-mixin;
+
+        .chip-container {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .MuiChip-root {
+                background: #3b3b3b;
+                margin: 5px;
+            }
+
+            .MuiChip-label {
+                color: white;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 140%;
+                /* or 22px */
+
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.more-nft-section {
+    background-color: black;
+    color: white;
+    margin-top: 126px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+
+    .related-nft-container {
+        padding: 0 0 24px 0;
+    }
+
+    .more-headers {
+        font-family: "poppinsregular";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 120%;
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding: 0 0 0 24px;
+        margin-left: 0;
+
+        span.heading {
+            padding: 16px 16px 0 0;
+            display: flex;
+            width: calc(100% - 210px);
+
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .MuiGrid-container {
+        margin: auto;
+
+        .cardview {
+            width: 100%;
+            // max-width: 180px;
+        }
+
+        .MuiGrid2-container {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .MuiDivider-root {
+        background-color: #888888;
+    }
+}
+
+.profile-photo {
+    max-height: 400px;
+}
+
+span.tradeicon {
+    margin: 0 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .nft-name-date-share {
+        .nft-share-container {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+
+    .nft-home-page {
+        .nft-name-containver {
+            .social-media-icons {
+                width: 100%;
+                margin: 10px 0;
+
+                .social-media-links {
+                    padding: 0;
+                }
+            }
+        }
+
+        .nft-home-content {
+            width: 100%;
+            margin: 0;
+            padding: 16px;
+            box-sizing: border-box;
+
+            .MuiGrid-container {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+
+            .description-nft {
+                margin: 0 0 16px 0;
+            }
+
+            .created-by-user {
+                margin: 0 0 16px 0;
+
+                .created-by-content {
+                    .user-details {
+                        .userview {
+                            .social-media-icons {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .originally-minted-by-user{
+                .social-media-icons {
+                    width: 100%;
+                }
+            }
+
+            .additional-details-nft {
+                margin: 0 0 16px 0;
+            }
+
+            .tags-grid {
+                margin: 0 0 16px 0;
+            }
+        }
+
+        .nft-header {
+            padding: 16px;
+        }
+
+        .more-nft-section {
+            padding: 0;
+            box-sizing: border-box;
+
+            .MuiGrid-container {
+                margin: auto;
+                box-sizing: border-box;
+                width: 100%;
+            }
+
+            .more-headers {
+                margin: 0;
+                font-size: 24px;
+                box-sizing: border-box;
+                line-height: initial;
+            }
+        }
+        .related-nft-container {
+            padding: 0 16px 24px 0;
+        }
+    }
+
+    span.tradeicon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+    }
+}

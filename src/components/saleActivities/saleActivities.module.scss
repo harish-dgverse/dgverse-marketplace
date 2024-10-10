@@ -1,0 +1,39 @@
+@import '../../mixins/common.scss';
+
+.item-activity {
+    @include content-box-mixin;
+
+    .MuiTableContainer-root {
+        margin-top: 20px;
+        .MuiTablePagination-selectLabel,
+        .MuiInputBase-root {
+            display: none;
+        }
+
+        .MuiBox-root {
+            display: flex;
+        }
+        .MuiTableCell-head {
+            font-family: "space_grotesklight";
+            font-style: normal;
+            font-weight: 450;
+            font-size: 20px;
+            line-height: 160%;
+            /* or 32px */
+            /* Gray 2 */
+
+            color: #4f4f4f;
+        }
+        .MuiTableCell-body {
+            font-family: "space_grotesklight";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            /* or 32px */
+            /* Gray 2 */
+
+            color: #4f4f4f;
+        }
+    }
+}

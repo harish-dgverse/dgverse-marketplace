@@ -1,0 +1,156 @@
+.footersec {
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+  
+    .imagesection p {
+      margin: 0;
+      padding: 10px 0;
+      font-family: 'space_grotesklight';
+      font-size: 14px;
+      line-height: 24px;
+    }
+    
+     ul {
+      padding: 0 0 0 60px;
+      list-style: none;
+    }
+    
+     ul li {
+      font-family: 'space_grotesklight';
+      line-height: 14px;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      padding: 0 0 16px 0;
+      cursor: pointer;
+      a{
+        text-decoration: none;
+      }
+    }
+    
+    ul li.title {
+      font-size: 16px;
+      font-family: 'poppinsregular';
+      font-weight: 700;
+      color: #828282;
+    }
+    
+    span.socialicon {
+      padding: 0 30px 0 0;
+      display: inline-flex;
+    }
+    
+    .MuiGrid2-root.footercontainer {
+      display: flex;
+      align-items: baseline;
+    }
+    
+    li.socilalsec {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 10px 0 0 0;
+    }
+
+    .success {
+        color: #219b21;
+        font-family: 'typewrite';
+        font-weight: 800;
+        letter-spacing: 0.5px;
+    }
+
+    .error {
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        transform: translate(0,-3.8em);
+        color: #fc5959;
+        font-family: 'typewrite';
+        font-weight: 800;
+        letter-spacing: 0.5px;
+    }
+    .MuiFormControl-root label {
+      font-size: 13px;
+      opacity: 0.6;
+  }
+  .joinbtn {
+    min-width: 200px;
+    color: #fff;
+    text-transform: capitalize;
+    background: #000;
+    box-shadow: none;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+    &:hover{
+      background: #fff;
+      color: #000;
+      border: 1px solid #000;
+      box-shadow: none;
+    }
+} 
+.emailtitle{
+  padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+}
+
+.footersection.black {
+  background: #000;
+  color: #fff;
+
+}
+@media only screen and (max-width:769px){
+  .footersec{
+    padding: 24px 0 24px 30px;
+    ul{
+      padding: 0;
+      span.socialicon{
+        padding: 0 15px 0 0;
+      }
+    }
+    .buildOnHedera-img{
+      width: 125px;
+    }
+  }
+}
+@media only screen and (max-width:600px){
+  .footersec{
+    padding: 16px;
+    ul{
+      list-style: none;
+      padding: 0;
+      li{
+        color: #828282;
+        padding: 10px 0;
+        &.title{
+          font-weight: 700;
+          color: #828282;
+        }
+          a {
+            text-decoration: none;
+            font-family: 'space_grotesklight';
+            font-weight: 400;
+            color: #333;
+            letter-spacing: 0.5px;
+            font-size: 14px;
+        }
+      } 
+    }
+    .MuiFormControl-root label {
+      font-size: 13px;
+      opacity: 0.6;
+  }
+  .joinbtn {
+    min-width: 200px;
+    color: #fff;
+    text-transform: capitalize;
+    background: #000;
+    box-shadow: none;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+} 
+  }
+}
+

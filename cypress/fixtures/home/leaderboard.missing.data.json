@@ -1,0 +1,73 @@
+[
+	{
+		"user_id": 2,
+		"user_name": "sample",
+		"subscriptionType": "platinum",
+		"verified": 1,
+		"user_role": "1",
+		"timestamp": "2022-12-24T12:13:39.607Z",
+		"Wallet": [
+			{
+				"wallet_address": "0.0.47694622"
+			}
+		],
+		"SocialMedia": [
+			{
+				"media": "insta",
+				"url": "https://twitter.com/"
+			},
+			{
+				"media": "twitter",
+				"url": "https://twitter.com/"
+			}
+		],
+		"image": null,
+		"_count": {
+			"userFollowers": 2,
+			"Token": 3,
+			"nft": 0,
+			"UserView": 11
+		},
+		"rank": 1,
+		"followerCount": 2,
+		"assets": 3
+	},
+	{
+		"user_id": 4,
+		"user_name": "John Connor",
+		"subscriptionType": "platinum",
+		"verified": 1,
+		"user_role": "1",
+		"created_at": "2022-12-24T12:13:39.614Z",
+		"Wallet": [
+			{
+				"wallet_address": "0.0.47694624"
+			}
+		],
+		"SocialMedia": [
+			{
+				"media": "insta",
+				"url": "user 1"
+			},
+			{
+				"media": "twitter",
+				"url": "twitter 2"
+			}
+		],
+		"image": {
+			"icon": null,
+			"cover_pic": "user 4.png",
+			"display_pic": "user 4.png",
+			"thumbnail": "user 4.png"
+		},
+		"_count": {
+			"userFollowers": 0,
+			"Token": 3,
+			"nft": 0,
+			"UserView": 11
+		},
+		"rank": 2,
+		"followerCount": 0,
+		"assets": 3
+	}
+]

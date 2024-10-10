@@ -1,0 +1,225 @@
+@import "../../mixins/common.scss";
+
+%cardlist {
+    display: flex;
+    color: #fff;
+    font-family: 'space_grotesklight';
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.add-user-details-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 100px;
+
+    .inputfield {
+        margin: 7px 0;
+    }
+
+    .layoutcard {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .layoutcardview {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: inherit;
+
+            .cardlist-outer {
+                display: flex;
+                padding: 0 20px 16px 0;
+                box-sizing: border-box;
+            }
+        }
+
+
+        span.contentsec {
+            font-family: "space_grotesklight";
+            padding: 14px 0;
+        }
+
+        label {
+            color: #fff;
+            font-family: 'space_grotesklight';
+            font-size: 1.4rem;
+            font-weight: 900;
+        }
+
+        .basic {
+            background: #BA9F75;
+            @extend %cardlist;
+        }
+
+        .silver {
+            background: #7D8891;
+            @extend %cardlist;
+        }
+
+        .gold {
+            background: #D8C366;
+            @extend %cardlist;
+        }
+
+        .platinum {
+            background: #C0C0C2;
+            @extend %cardlist;
+        }
+
+        p.cardtext {
+            font-size: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-weight: 900;
+            margin: 0 0 10px 0;
+
+            span.price {
+                font-size: 12px;
+                font-family: 'space_grotesklight';
+                font-weight: bold;
+                padding: 0 5px 0 0;
+            }
+        }
+
+        .checkdetails {
+            display: flex;
+            flex-direction: column;
+
+            p.checkcircleicon {
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 10px 0 0 0;
+
+                span.checkcircle {
+                    display: flex;
+                    padding: 0 10px 0 0;
+                }
+            }
+        }
+
+        .btnsec-subscription {
+            display: flex;
+            width: 100%;
+            margin: 0 0 16px 0;
+
+            .btnview {
+                width: 100%;
+                background: transparent;
+                color: #fff;
+                border: 1px solid #fff;
+                box-shadow: none;
+                border-radius: 5em;
+                font-size: 12px;
+                font-family: 'space_grotesklight';
+                font-weight: 900;
+            }
+        }
+    }
+
+    .outerlayout {
+        padding: 14px 0 0 0;
+    }
+
+    p.ourteammsg {
+        display: flex;
+        width: 100%;
+        margin: 10px 0;
+        min-height: 22px;
+    }
+
+    .page-header {
+        font-family: "bebas_neueregular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .add-user-details-fields-container {
+        margin-top: 5%;
+
+        .description-collection {
+            margin-top: 5px;
+        }
+    }
+
+    .add-user-action-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        button {
+            border-radius: 12px;
+            align-items: center;
+            padding: 10px 20px;
+            gap: 10px;
+            margin: 5px;
+            font-family: "space_grotesklight";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            width: 150px;
+        }
+
+        button:hover {
+            background: grey;
+        }
+
+
+
+
+    }
+
+    .nextbtn {
+        color: #000;
+    }
+
+    .discard-button {
+        @include resetbtn;
+    }
+
+    .create-button {
+        @include createbtn;
+    }
+    .stepper-mobile {
+        width: 100%;
+        max-width: 100%;
+        button{
+            color: #000;
+        }
+        button:disabled{
+            color: #ccc;
+        }
+        .create-button{
+            color: #fff;
+        }
+      }
+      .subscription-view {
+        padding: 24px 24px 0 24px;
+        .additional-fields {
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .add-user-details-container {
+        width: 90%;
+        .subscription-view {
+            .additional-fields {
+                width: 100%;
+            }
+        }
+    }
+}

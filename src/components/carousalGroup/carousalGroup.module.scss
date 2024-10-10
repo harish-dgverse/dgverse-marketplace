@@ -1,0 +1,59 @@
+.collectionpart {
+    display: flex;
+    flex-wrap: wrap;
+}
+.name-section-outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    .name-part {
+        display: block;
+        width: 70%;
+        align-items: center;
+        justify-content: flex-start;
+        white-space: nowrap;
+        word-wrap: break-word;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .price-part {
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+    }
+}
+.cardlistprofilename {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .namesection {
+        width: 70%;
+        display: block;
+        white-space: nowrap;
+        word-break: break-word;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .token-text {
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+        align-items: center;
+        p.idenitifer {
+            display: inline-flex;
+            width: auto;
+        }
+    }
+}
+
+.textpart{
+    .supply-outer {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      align-items: center;
+    }
+  } 

@@ -1,0 +1,280 @@
+{
+	"name": "2011 World Cup Moments",
+	"token_id": "0.0.15397475",
+	"total_supply": 3,
+	"symbol": null,
+	"timestamp": "2023-09-17T06:14:52.764Z",
+	"token_type": "nft",
+	"token_category": "Photography",
+	"ft_sales_price": null,
+	"status": null,
+	"supply_key": true,
+	"freeze_key": true,
+	"pause_key": true,
+	"kyc_key": true,
+	"wipe_key": true,
+	"user": {
+		"user_name": "BCCI",
+		"subscriptionType": "gold",
+		"verified": 2,
+		"user_id": 7,
+		"timestamp": "2023-09-17T06:14:52.732Z",
+		"Wallet": [
+			{
+				"wallet_id": 1,
+				"wallet_address": "0.0.15397434"
+			}
+		],
+		"image": {
+			"display_pic": "7.jpeg",
+			"cover_pic": "7.jpeg",
+			"icon": "7.jpeg"
+		},
+		"SocialMedia": [
+			{
+				"media": "insta",
+				"url": "https://www.instagram.com/bcci.update/?hl=en"
+			},
+			{
+				"media": "twitter",
+				"url": "https://twitter.com/BCCI"
+			},
+			{
+				"media": "fb",
+				"url": "https://www.facebook.com/IndianCricketTeam"
+			},
+			{
+				"media": "discord",
+				"url": "https://discord.com/BCCI"
+			},
+			{
+				"media": "yt",
+				"url": "https://www.youtube.com/@bcciofficial"
+			}
+		]
+	},
+	"image": {
+		"cover_pic": "0.0.15397475.jpeg",
+		"display_pic": "0.0.15397475.jpeg",
+		"icon": "0.0.15397475.jpeg"
+	},
+	"SocialToken": [],
+	"social_media": [
+		{
+			"media": "insta",
+			"url": "https://www.instagram.com/bcci.update/?hl=en"
+		},
+		{
+			"media": "twitter",
+			"url": "https://twitter.com/BCCI"
+		},
+		{
+			"media": "fb",
+			"url": "https://www.facebook.com/IndianCricketTeam"
+		},
+		{
+			"media": "discord",
+			"url": "https://discord.com/BCCI"
+		},
+		{
+			"media": "yt",
+			"url": "https://www.youtube.com/@bcciofficial"
+		}
+	],
+	"additional_info": [
+		{
+			"attribute": "Format",
+			"value": "50 over"
+		},
+		{
+			"attribute": "Number of teams",
+			"value": "14"
+		},
+		{
+			"attribute": "Winner",
+			"value": "India"
+		},
+		{
+			"attribute": "Runners Up",
+			"value": "Sri Lanka"
+		},
+		{
+			"attribute": "Semi finalists",
+			"value": "Pakistan, New zealand"
+		}
+	],
+	"_count": {
+		"UserShare": 1,
+		"UserView": 48,
+		"UserLike": 1
+	},
+	"inMarketCount": 0,
+	"nftDetails": [
+		{
+			"nft_name": "Winning moment",
+			"nft_id": "0.0.15397475.1",
+			"timestamp": "2023-09-17T06:14:52.780Z",
+			"status": null,
+			"image": {
+				"cover_pic": "0.0.15397475.1.jpeg",
+				"display_pic": "0.0.15397475.1.jpeg",
+				"icon": "0.0.15397475.1.jpeg"
+			},
+			"user": {
+				"user_name": "BCCI",
+				"subscriptionType": "gold",
+				"verified": 2,
+				"user_id": 7,
+				"Wallet": [
+					{
+						"wallet_id": 1
+					}
+				],
+				"image": {
+					"image_id": 1,
+					"display_pic": "7.jpeg",
+					"cover_pic": "7.jpeg",
+					"icon": "7.jpeg"
+				}
+			},
+			"social_media": [
+				{
+					"media": "insta",
+					"url": "https://www.instagram.com/bcci.update/?hl=en"
+				},
+				{
+					"media": "twitter",
+					"url": "https://twitter.com/BCCI"
+				},
+				{
+					"media": "fb",
+					"url": "https://www.facebook.com/IndianCricketTeam"
+				},
+				{
+					"media": "discord",
+					"url": "https://discord.com/BCCI"
+				},
+				{
+					"media": "yt",
+					"url": "https://www.youtube.com/@bcciofficial"
+				}
+			]
+		},
+		{
+			"nft_name": "Yuvi chasing australia",
+			"nft_id": "0.0.15397475.2",
+			"timestamp": "2023-09-17T06:14:52.794Z",
+			"status": null,
+			"image": {
+				"cover_pic": "0.0.15397475.2.jpeg",
+				"display_pic": "0.0.15397475.2.jpeg",
+				"icon": "0.0.15397475.2.jpeg"
+			},
+			"user": {
+				"user_name": "BCCI",
+				"subscriptionType": "gold",
+				"verified": 2,
+				"user_id": 7,
+				"Wallet": [
+					{
+						"wallet_id": 1
+					}
+				],
+				"image": {
+					"image_id": 1,
+					"display_pic": "7.jpeg",
+					"cover_pic": "7.jpeg",
+					"icon": "7.jpeg"
+				}
+			},
+			"social_media": [
+				{
+					"media": "insta",
+					"url": "https://www.instagram.com/bcci.update/?hl=en"
+				},
+				{
+					"media": "twitter",
+					"url": "https://twitter.com/BCCI"
+				},
+				{
+					"media": "fb",
+					"url": "https://www.facebook.com/IndianCricketTeam"
+				},
+				{
+					"media": "discord",
+					"url": "https://discord.com/BCCI"
+				},
+				{
+					"media": "yt",
+					"url": "https://www.youtube.com/@bcciofficial"
+				}
+			]
+		},
+		{
+			"nft_name": "Beating pakistan",
+			"nft_id": "0.0.15397475.3",
+			"timestamp": "2023-09-17T06:14:52.802Z",
+			"status": null,
+			"image": {
+				"cover_pic": "0.0.15397475.3.jpeg",
+				"display_pic": "0.0.15397475.3.jpeg",
+				"icon": "0.0.15397475.3.jpeg"
+			},
+			"user": {
+				"user_name": "Mohanlal Viswanathan nair",
+				"subscriptionType": "basic",
+				"verified": 0,
+				"user_id": 20,
+				"Wallet": [
+					{
+						"wallet_id": 2
+					}
+				],
+				"image": {
+					"image_id": 2,
+					"display_pic": "20.jpeg",
+					"cover_pic": "20.jpeg",
+					"icon": "20.jpeg"
+				}
+			},
+			"social_media": [
+				{
+					"media": "insta",
+					"url": "https://www.instagram.com/bcci.update/?hl=en"
+				},
+				{
+					"media": "twitter",
+					"url": "https://twitter.com/BCCI"
+				},
+				{
+					"media": "fb",
+					"url": "https://www.facebook.com/IndianCricketTeam"
+				},
+				{
+					"media": "discord",
+					"url": "https://discord.com/BCCI"
+				},
+				{
+					"media": "yt",
+					"url": "https://www.youtube.com/@bcciofficial"
+				}
+			]
+		}
+	],
+	"count": {
+		"UserShare": 1,
+		"UserView": 48,
+		"UserLike": 1
+	},
+	"userActions": {
+		"like": false,
+		"favorite": false,
+		"follow": false
+	},
+	"ranking": {
+		"rank": 5
+	},
+	"actionsAvailable": [
+		"Delete collection"
+	]
+}

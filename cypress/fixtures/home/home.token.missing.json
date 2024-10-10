@@ -1,0 +1,164 @@
+{
+	"token": [
+	],
+	"nft": [
+		{
+			"nft_name": "Antartican ice",
+			"nft_type": "Photography",
+			"nft_id": "0.0.47694636.1",
+			"created_at": "2022-12-24T12:31:25.760Z",
+			"description": null,
+			"image": {
+				"cover_pic": null,
+				"display_pic": "nft 1.1.png",
+				"icon": "nft 1.1.png"
+			},
+			"token": {
+				"token_id": "0.0.47694636",
+				"name": "Collection of antartica",
+				"symbol": null,
+				"created_at": "2022-12-24T12:31:25.737Z",
+				"image": {
+					"cover_pic": "token cp 1.png",
+					"display_pic": "token 1.png",
+					"icon": "token 1.png"
+				}
+			},
+			"UserLike": [],
+			"UserView": [],
+			"UserShare": [
+				{
+					"media": "insta",
+					"user_id": 1
+				},
+				{
+					"media": "insta",
+					"user_id": 2
+				}
+			],
+			"user": {
+				"user_name": "dg user 1",
+				"user_id": 1,
+				"Wallet": [
+					{
+						"wallet_id": 1
+					}
+				],
+				"image": {
+					"image_id": 1,
+					"display_pic": "user 1.png",
+					"cover_pic": "1.jpeg",
+					"icon": "user 1.png"
+				},
+				"SocialMedia": [
+					{
+						"media": "insta",
+						"url": "user 1"
+					}
+				]
+			},
+			"social_media": [
+				{
+					"media": "insta",
+					"url": "xfdcgv"
+				},
+				{
+					"media": "fb",
+					"url": "fb link"
+				}
+			],
+			"additional_info": [],
+			"saleDetails": {
+				"saleMode": "DIRECT_SALE",
+				"quotedPrice": 100,
+				"expiresAt": "2022-12-24T12:31:25.000Z",
+				"timestamp": "2022-12-24T12:31:25.789Z",
+				"saleId": 2,
+				"NFT": {
+					"nft_id": "0.0.47694636.1"
+				},
+				"Auction": null,
+				"dutchAuction": null,
+				"directSale": {
+					"directSaleId": 2,
+					"directSaleCounterOffers": [
+						{
+							"counterOffer": 20,
+							"operationType": "SELLER_COUNTER",
+							"timestamp": "2023-03-09T07:59:23.510Z",
+							"user": {
+								"user_name": "sample",
+								"user_id": 2,
+								"image": {
+									"cover_pic": "token cp 1.png"
+								}
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"nft_name": "Ape man",
+			"nft_type": "Photography",
+			"nft_id": "0.0.47694637.1",
+			"created_at": "2022-12-24T12:31:25.766Z",
+			"description": null,
+			"image": {
+				"cover_pic": null,
+				"display_pic": "nft 2.1.png",
+				"icon": "nft 2.1.png"
+			},
+			"token": {
+				"token_id": "0.0.47694637",
+				"name": "All Ape Kind",
+				"symbol": null,
+				"created_at": "2022-12-24T12:31:25.745Z",
+				"image": {
+					"cover_pic": "token 2 cp.png",
+					"display_pic": "token 2.png",
+					"icon": "token 2.png"
+				}
+			},
+			"UserLike": [],
+			"UserView": [],
+			"UserShare": [],
+			"user": {
+				"user_name": "sample",
+				"user_id": 2,
+				"Wallet": [
+					{
+						"wallet_id": 2
+					}
+				],
+				"image": {
+					"image_id": 2,
+					"display_pic": "user 2.png",
+					"cover_pic": "token cp 1.png",
+					"icon": "user 2.png"
+				},
+				"SocialMedia": [
+					{
+						"media": "insta",
+						"url": "https://twitter.com/"
+					},
+					{
+						"media": "twitter",
+						"url": "https://twitter.com/"
+					}
+				]
+			},
+			"social_media": [
+				{
+					"media": "insta",
+					"url": "xfdcgv"
+				},
+				{
+					"media": "fb",
+					"url": "fb link"
+				}
+			],
+			"additional_info": []
+		}
+	]
+}
